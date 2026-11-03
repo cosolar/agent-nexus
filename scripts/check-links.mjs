@@ -10,7 +10,7 @@
  *
  * 退出码: 0 全部可达 / 1 存在失效链接
  */
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -22,7 +22,11 @@ const REPORT_DIR = path.join(ROOT, 'reports');
 const argv = process.argv.slice(2);
 const getArg = (name, fallback) => {
   const i = argv.indexOf(name);
-  return i >= 0 && argv[i + 1] ? argv[i + 1] : fallback;
+  if (i >= 0 && argv[i + 1]) return argv[i + 1];
+  // 同时支持 --only=external 这种等号写法
+  const eq = argv.find((a) => a.startsWith(`${name}=`));
+  if (eq) return eq.slice(name.length + 1);
+  return fallback;
 };
 const CONCURRENCY = Number(getArg('--concurrency', 3));
 const TIMEOUT = Number(getArg('--timeout', 12000));
@@ -31,8 +35,8 @@ const WRITE_JSON = argv.includes('--json');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** 提取链接，并记录所在行号与所属项目名，便于定位 */
-function extractLinks(markdown) {
+/** 提取链接，并记录所在文件、行号与所属项目名，便于定位 */
+function extractLinks(markdown, file = 'README.md') {
   const lines = markdown.split('\n');
   const seen = new Map();
   const urlRe = /https?:\/\/[^\s)|\]"'<>]+/g;
@@ -42,10 +46,24 @@ function extractLinks(markdown) {
     const context = nameMatch ? nameMatch[1].trim() : '';
     for (const raw of line.match(urlRe) || []) {
       const url = raw.replace(/[.,;:，。；：]+$/, '');
-      if (!seen.has(url)) seen.set(url, { url, line: idx + 1, context });
+      if (!seen.has(url)) seen.set(url, { url, file, line: idx + 1, context });
     }
   });
   return [...seen.values()];
+}
+
+/** 收集待校验的文档：README + analysis/ 下的所有周报 */
+async function collectSources() {
+  const files = [README];
+  try {
+    const dir = path.join(ROOT, 'analysis');
+    for (const name of (await readdir(dir)).sort().reverse()) {
+      if (name.endsWith('.md')) files.push(path.join(dir, name));
+    }
+  } catch {
+    // analysis 目录不存在时仅校验 README
+  }
+  return files;
 }
 
 async function checkOne(item, attempt = 0) {
@@ -147,9 +165,9 @@ function buildReport(all, checkedAt, skippedGithub = 0) {
   lines.push('');
 
   if (buckets.invalid.length) {
-    lines.push('## ❌ 确定失效', '', '| 状态 | 项目 | 链接 | 位置 |', '| :---: | :--- | :--- | :---: |');
+    lines.push('## ❌ 确定失效', '', '| 状态 | 项目 | 链接 | 位置 |', '| :---: | :--- | :--- | :--- |');
     for (const f of buckets.invalid) {
-      lines.push(`| ${f.status} | ${f.context || '—'} | ${f.url} | L${f.line} |`);
+      lines.push(`| ${f.status} | ${f.context || '—'} | ${f.url} | ${f.file}:${f.line} |`);
     }
     lines.push('');
   }
@@ -160,12 +178,12 @@ function buildReport(all, checkedAt, skippedGithub = 0) {
       '',
       '> 403/429/521 多为站点反爬或限流，超时多为本地网络不可达，**不等于链接失效**。',
       '',
-      '| 状态 | 项目 | 链接 | 说明 |',
-      '| :---: | :--- | :--- | :--- |'
+      '| 状态 | 项目 | 链接 | 位置 | 说明 |',
+      '| :---: | :--- | :--- | :--- | :--- |'
     );
     for (const f of buckets.unknown) {
       const reason = f.error ? f.error : `HTTP ${f.status}`;
-      lines.push(`| ${f.status || 'ERR'} | ${f.context || '—'} | ${f.url} | ${reason} |`);
+      lines.push(`| ${f.status || 'ERR'} | ${f.context || '—'} | ${f.url} | ${f.file}:${f.line} | ${reason} |`);
     }
     lines.push('');
   }
@@ -199,8 +217,20 @@ async function probe(url, timeout = 8000) {
 }
 
 async function main() {
-  const markdown = await readFile(README, 'utf8');
-  let links = extractLinks(markdown);
+  const sources = await collectSources();
+  let links = [];
+  const seen = new Set();
+  for (const file of sources) {
+    const markdown = await readFile(file, 'utf8');
+    const rel = path.relative(ROOT, file).replace(/\\/g, '/');
+    for (const item of extractLinks(markdown, rel)) {
+      if (!seen.has(item.url)) {
+        seen.add(item.url);
+        links.push(item);
+      }
+    }
+  }
+  console.log(`扫描 ${sources.length} 个文档，去重后 ${links.length} 个链接`);
 
   if (ONLY === 'github') links = links.filter((l) => l.url.includes('github.com'));
   if (ONLY === 'external') links = links.filter((l) => !l.url.includes('github.com'));

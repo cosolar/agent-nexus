@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:53:12.056Z",
+  "generatedAt": "2026-11-03T01:58:29.942Z",
   "summary": {
     "total": 449,
     "withStars": 420,
@@ -38,7 +38,7 @@
       "2026-10-15": 1
     },
     "warnings": [
-      "L468 Mistral OCR 4: 星数无法解析 -> \"**N/A**\""
+      "L442 Mistral OCR 4: 星数无法解析 -> \"**N/A**\""
     ]
   },
   "projects": [
@@ -56,7 +56,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "**「🆕 万物皆可逆向的 Agent 工具编排层」** 🆕 **本轮最大现象级项目：10 月上旬不足 2 万星 → 10 月 15 日 26.09 万⭐**，连续约 8 天霸榜 GitHub 日榜第一（单日峰值 +2.5 万）。\"Reverse Engineer Anything\"——不是又一个提示词包，而是把 **Ghidra headless、Hopper（Unix socket）、IDA（上游 MCP）、pinned JADX、Binwalk/Unblob、CDP/Playwright** 整条逆向工具链桥接给编码 Agent，覆盖 20+ 目标类型（原生、.NET、WASM、EVM 字节码、Electron、APK、固件、HAR）。`npx rea-agents setup` 一行注册进 Claude Code / Codex / Cursor / Gemini CLI / Grok Build 等 13+ 客户端，MIT 许可，仓库创建于 4 月 14 日。强制\"证据契约\"输出（产物身份 / 源码位置 / 观测 / 推断 / 未决结论），并附 DX-Ball、Notion、TH04、Aegis 四个完整案例。",
-      "line": 85
+      "line": 59
     },
     {
       "name": "Hermes Agent",
@@ -72,7 +72,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "**「自进化 AI Agent」** 2026年增长最猛的Agent项目，采用三层记忆架构（短期/长期/元记忆），能与用户共同进化。支持自我反思、自主学习和个性化适配，**10 月 15 日实测 25.4 万星**（Repo Tagline：\"The agent that grows with you\"），代表了Agent从\"工具\"到\"伙伴\"的范式跃迁。核心亮点：skill失败时自动修复，让下一次运行更稳。",
-      "line": 86
+      "line": 60
     },
     {
       "name": "DeepSeek Harness (DSH)",
@@ -88,7 +88,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "**「万物皆插件 Agent 平台」** 🆕 **2026年8月13日开源，10 月 14—15 日突破 25 万⭐**。核心理念\"Everything is a Plugin\"——将 Agent 能力（对话、工具、MCP、技能、子Agent、UI）全部封装为可插拔插件。MIT许可，TypeScript编写。**10月里程碑：官方插件直接把 Claude Code / Codex 变成可插拔组件**，harness 之间从竞争走向互操作。**10 月 3 日的 v0.2.1-alpha.1 还塞进了实验性的 Claude Code Mods 兼容层**；npm 包 `@deepseek-ai/dsh` 截至 10 月 4 日单周下载 45.2 万次。插件生态（桌面端3个实现、插件市场、皮肤系统、awesome 列表）合计超30万⭐，是继 AutoGPT 之后增速最快的新开源项目。",
-      "line": 87
+      "line": 61
     },
     {
       "name": "AutoGPT",
@@ -104,7 +104,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "**「自主 AI Agent 始祖」** 全球首个自主AI Agent项目，支持自动任务分解、多步推理和工具调用，开创了Agent赛道。内置插件生态和可视化工作流编辑器，是理解Agent范式的入门必读。",
-      "line": 88
+      "line": 62
     },
     {
       "name": "LangChain",
@@ -120,7 +120,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "**「Agent 工程平台」** LLM应用开发的事实标准框架，提供链式调用、工具绑定、记忆管理、Agent编排等核心能力。生态最完整，社区最活跃，几乎所有Agent项目都直接或间接基于LangChain构建。",
-      "line": 89
+      "line": 63
     },
     {
       "name": "pi",
@@ -136,7 +136,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "🆕 **本轮补漏的最大发现**：一个「AI Agent 工具包」——统一 LLM API + Agent 循环 + TUI + 编码 Agent CLI。12 万星却几乎没进中文圈视野，是 harness 层的隐形巨头。",
-      "line": 90
+      "line": 64
     },
     {
       "name": "Paperclip",
@@ -152,7 +152,7 @@
       "category_index": 1,
       "tier": "👑 超级巨星（⭐ 100k+）",
       "desc": "**「🆕 \"跑一家公司\"的 Agent 编排平台」** 🆕 **2026年9月底爆红，10 月中旬正式跨过 10 万星**。MIT许可，口号\"Run a Company of AI Agents\"——为Agent团队提供**组织架构图、角色分工与预算管理**的编排层，不替代现有工具而是统一调度。仓库创建于 3 月 2 日，是\"Agent公司化\"理念最完整的开源落地。",
-      "line": 91
+      "line": 65
     },
     {
       "name": "DeerFlow",
@@ -168,7 +168,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "**「长周期 SuperAgent」** 字节跳动开源的深度研究Agent框架，支持长周期任务的规划、执行与反思闭环。通过沙箱、记忆、工具、技能、子Agent和消息网关处理从几分钟到几小时的多层级任务，**9月初持续增长至81k+**；10 月 15 日实测 **8.39 万⭐**。社区热议 **DeerFlow 2.0**（10 月 10 日的 harness 横评多次点名），但截至本版未见正式 2.0 仓库，留待下一版核实。",
-      "line": 97
+      "line": 71
     },
     {
       "name": "MiroFish",
@@ -184,7 +184,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "**「🆕 通用群体智能引擎」** 🆕 多智能体社会仿真引擎，用大规模Agent群体模拟社会传播、舆论演化与决策推演，10月初入选GitHub Python热点Top榜。⚠️ 上一版链接写作 `MiroMind/MiroFish` 已 404，正确路径为 `666ghj/MiroFish`（另有社区离线镜像 `nikmcfly/MiroFish-Offline` 2,616⭐）。与\"950个Claude Agent协作发现新酶\"同属群体智能方向。",
-      "line": 98
+      "line": 72
     },
     {
       "name": "MetaGPT",
@@ -200,7 +200,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "**「多 Agent 模拟软件公司」** 用多个AI Agent模拟完整软件开发团队（产品经理、架构师、工程师、QA），自动生成需求文档、系统设计、代码和测试，是Multi-Agent协作范式的开创者。",
-      "line": 99
+      "line": 73
     },
     {
       "name": "AutoGen",
@@ -216,7 +216,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "🆕 多 Agent 对话协作框架的**元老**。2026 年 4 月起与 Semantic Kernel 合并进 Microsoft Agent Framework，本体转入维护轨道——**读它是理解「多 Agent 对话范式」的起点**。",
-      "line": 100
+      "line": 74
     },
     {
       "name": "OpenManus",
@@ -232,7 +232,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "**「通用 Agent 平台」** Manus AI的开源复刻版，2026年增长最快的Agent项目之一。支持多步任务规划、工具调用和环境交互，提供完整的Agent运行时和可视化界面，降低了构建通用Agent的门槛。",
-      "line": 101
+      "line": 75
     },
     {
       "name": "CrewAI",
@@ -248,7 +248,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "**「角色扮演式编排」** 以\"船员\"比喻Agent协作的编排框架。**1.14.6稳定版（5月28日）+ 6月11日更新**：可插拔默认后端（memory/knowledge/RAG/flow）、对话流Chat API、范围化运行时状态。API设计优雅简洁，上手极快。",
-      "line": 102
+      "line": 76
     },
     {
       "name": "DeepTutor",
@@ -264,7 +264,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "🆕 终身个性化 AI 辅导 Agent：多 LLM + RAG 检索 + 智能教学代理，11-01 日榜单日 +1,170。**教育场景里第一个冲进 5 万星梯队的 Agent**，也是「Agent 做长期陪伴型任务」的样本。",
-      "line": 103
+      "line": 77
     },
     {
       "name": "Goose",
@@ -280,7 +280,7 @@
       "category_index": 1,
       "tier": "🌟 准巨星（⭐ 50k - 100k）",
       "desc": "**「MCP优先 Agent」** 🆕 Block（原Square）出品的开源AI Agent，Rust编写。**2025年12月捐赠给Linux基金会旗下Agentic AI Foundation**，与MCP、AGENTS.md同列，厂商中立治理。70+ MCP扩展，支持代码编辑、命令执行和测试运行，Apache 2.0许可。",
-      "line": 104
+      "line": 78
     },
     {
       "name": "nanobot",
@@ -296,7 +296,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「轻量 AI Agent」** 港大数据科学实验室出品，仅4000行代码实现完整Agent能力。极简设计哲学，零依赖、高性能，适合嵌入到现有系统中。",
-      "line": 110
+      "line": 84
     },
     {
       "name": "CowAgent",
@@ -312,7 +312,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「超级 AI 助手」** 国产超级AI助手，集成多模型对话、知识库、插件系统和多模态能力。支持微信/企微/飞书等多平台接入，是国内最活跃的AI助手开源项目。",
-      "line": 111
+      "line": 85
     },
     {
       "name": "Agno",
@@ -328,7 +328,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「极速轻量 Agent 框架」** 前身为Phidata，主打极速和轻量。Type-safe的API设计，内置RAG、记忆和工具调用。**🆕 v3.1.0（2026年10月2日）**：新增RBAC权限体系、AgentOS数据库文件系统（DbFileSystem）、MCP工具行为显式化，V3→V3.1有破坏性变更需按升级指南迁移。",
-      "line": 112
+      "line": 86
     },
     {
       "name": "OpenMAIC",
@@ -344,7 +344,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「多智能体互动课堂」** 🆕 **2026年9月热榜项目**（9月月榜收录）。开放的多智能体AI互动课堂平台——多个Agent分别扮演教师、助教、同学，在虚拟教室里以对话和协作方式教学。是\"Agent进入教育场景\"的代表项目。",
-      "line": 113
+      "line": 87
     },
     {
       "name": "LangGraph",
@@ -360,7 +360,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「有向图 Agent 工作流」** 🆕 **v1.0 GA（2025年10月）→ v1.2.0（2026年5月12日）**：新增节点级超时、错误恢复（Saga/补偿路由）、DeltaChannel降低长线程checkpoint开销、v2类型化流式API。深度集成LangSmith可观测性，是构建复杂Agent工作流的首选工具。",
-      "line": 114
+      "line": 88
     },
     {
       "name": "DSPy",
@@ -376,7 +376,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「LLM 编程框架」** 斯坦福NLP出品，将LLM提示工程从\"手工调参\"提升为\"自动编译\"。通过声明式编程自动优化Prompt和Few-shot示例，是Prompt Engineering科学化的里程碑。",
-      "line": 115
+      "line": 89
     },
     {
       "name": "AgentGPT",
@@ -392,7 +392,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「浏览器端 Agent」** 将AutoGPT的能力搬到浏览器中，提供直观的Web界面来配置和运行自主Agent。无需本地环境搭建，降低了Agent使用门槛。",
-      "line": 116
+      "line": 90
     },
     {
       "name": "ChatDev",
@@ -408,7 +408,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「多 Agent 模拟软件公司」** 清华团队出品，用多Agent模拟虚拟软件公司。Agent之间通过自然语言对话协作完成软件开发全流程。",
-      "line": 117
+      "line": 91
     },
     {
       "name": "SmolAgents",
@@ -424,7 +424,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「极简 Agent」** HuggingFace出品的极简Agent框架，核心代码不到1000行。支持Code Agent范式（Agent直接写代码执行任务），与HuggingFace生态深度集成。",
-      "line": 118
+      "line": 92
     },
     {
       "name": "AgentScope",
@@ -440,7 +440,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「可观测 Agent」** 阿里达摩院出品的多Agent平台，强调可观测性和可控性。提供丰富的Agent模板、分布式运行时和可视化调试工具。",
-      "line": 119
+      "line": 93
     },
     {
       "name": "OpenAI Agents SDK",
@@ -456,7 +456,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「轻量多 Agent」** OpenAI官方Agent开发SDK，提供Agent定义、工具绑定、交接（handoff）和防护栏等核心能力。**2026年6月更新**：分层子Agent生成（最多3层）、fallback模型链、按Agent成本归因。",
-      "line": 120
+      "line": 94
     },
     {
       "name": "Crush",
@@ -472,7 +472,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「终端 AI Agent」** 🆕 Charm出品的终端AI编码Agent，Go语言编写。优雅的TUI界面，支持多模型、MCP集成和会话管理，是终端重度用户的新选择。",
-      "line": 121
+      "line": 95
     },
     {
       "name": "Mastra",
@@ -488,7 +488,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「TypeScript Agent 框架」** TypeScript生态最热门的Agent框架，提供类型安全的Agent构建API。内置工作流引擎、RAG和评估工具，与Vercel AI SDK深度集成。",
-      "line": 122
+      "line": 96
     },
     {
       "name": "Haystack",
@@ -504,7 +504,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「NLP/RAG 编排」** deepset出品的NLP和RAG编排框架，提供模块化的Pipeline架构。擅长文档搜索、问答和RAG场景。",
-      "line": 123
+      "line": 97
     },
     {
       "name": "Vercel AI SDK",
@@ -520,7 +520,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「前端 AI 开发 SDK」** Vercel出品的AI开发SDK，让前端开发者轻松集成LLM能力。支持流式输出、工具调用和多模型切换。",
-      "line": 124
+      "line": 98
     },
     {
       "name": "Grok Build",
@@ -536,7 +536,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「终端编码 Agent」** 🆕 **2026年7月14日开源**，Apache 2.0。SpaceXAI（前xAI）出品的终端AI编码Agent，Rust全量源码。包含Agent循环、工具层（读/改代码、搜索、命令执行）、终端UI和扩展系统（skills、plugins、hooks、MCP servers、subagents）。原生X/Twitter实时数据接入，支持完全本地优先运行。",
-      "line": 125
+      "line": 99
     },
     {
       "name": "Letta",
@@ -552,7 +552,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「有状态 Agent」** 前身为MemGPT，专注解决LLM的上下文窗口限制。通过虚拟上下文管理和长期记忆机制，让Agent拥有\"无限记忆\"能力。",
-      "line": 126
+      "line": 100
     },
     {
       "name": "BabyAGI",
@@ -568,7 +568,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「自主任务 Agent 先驱」** 最早的自主Agent项目之一，用极简代码实现了任务创建、优先级排序和自主执行的完整循环。",
-      "line": 127
+      "line": 101
     },
     {
       "name": "OpenAI Swarm",
@@ -584,7 +584,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「轻量多 Agent 协作」** OpenAI出品的实验性多Agent框架，主打轻量级Agent协作和交接。设计极简，强调教学价值。",
-      "line": 128
+      "line": 102
     },
     {
       "name": "coze-studio",
@@ -600,7 +600,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "🆕 扣子（Coze）的**开源自托管版**：一体化可视化 Agent 开发平台，创建 / 调试 / 发布全流程。字节把商业产品的骨架直接开源，是「平台型 Agent」里最完整的一份。",
-      "line": 129
+      "line": 103
     },
     {
       "name": "Guidance",
@@ -616,7 +616,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「LLM 结构化控制」** 微软出品，通过约束LLM输出来实现结构化和可控的文本生成。将传统编程的控制流引入LLM调用。",
-      "line": 130
+      "line": 104
     },
     {
       "name": "Google ADK",
@@ -632,7 +632,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「企业级 Agent 开发套件」** Google推出的Agent Development Kit，提供Agent构建、工具集成、多Agent编排和企业级安全等全套能力。",
-      "line": 131
+      "line": 105
     },
     {
       "name": "Suna",
@@ -648,7 +648,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「自主通用 Agent」** 🆕 通用自主AI Agent平台，支持浏览器自动化、数据采集、文档处理和深度研究。提供完整的Agent运行时和可视化界面，增长迅速。",
-      "line": 132
+      "line": 106
     },
     {
       "name": "OWL",
@@ -664,7 +664,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「多 Agent 协作」** CAMEL-AI团队出品的多Agent协作框架，在GAIA等Agent基准测试中表现优异。",
-      "line": 133
+      "line": 107
     },
     {
       "name": "DB-GPT",
@@ -680,7 +680,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「数据驱动 Agent」** 专注数据库场景的Agent框架，支持自然语言查数据、智能数据分析和可视化。",
-      "line": 134
+      "line": 108
     },
     {
       "name": "agent-zero",
@@ -696,7 +696,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "🆕 非预定义型 Agent 框架：不写死流程，Agent 在使用中动态生长、持续学习。**与「工作流编排」是两条相反的路线。**",
-      "line": 135
+      "line": 109
     },
     {
       "name": "Pydantic AI",
@@ -712,7 +712,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「类型安全 Agent」** 🆕 **V2于2026年6月23日稳定发布**：harness-first重设计，引入\"capability\"核心原语（打包tools+hooks+instructions+model settings）。FastAPI风格工程体验，V1到V2为破坏性变更。",
-      "line": 136
+      "line": 110
     },
     {
       "name": "rowboat",
@@ -728,7 +728,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "🆕 「AI 同事」：带记忆与协作能力，几分钟内把多 Agent 工作流搭起来。",
-      "line": 137
+      "line": 111
     },
     {
       "name": "SuperAGI",
@@ -744,7 +744,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「模块化自主 Agent 平台」** 模块化的自主Agent平台，提供Agent创建、工具市场、资源管理和并发控制等企业级功能。",
-      "line": 138
+      "line": 112
     },
     {
       "name": "Camel",
@@ -760,7 +760,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「多 Agent 通信先驱」** 学术界最早的多Agent框架之一，首创了Agent间的角色扮演对话模式。",
-      "line": 139
+      "line": 113
     },
     {
       "name": "Qwen-Agent",
@@ -776,7 +776,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "🆕 阿里官方 Agent 框架：Function Calling、代码解释器、RAG、Chrome 扩展一应俱全，与 Qwen 系列深度配套。**国产模型方的「第一方框架」**，和模型一起迭代。",
-      "line": 140
+      "line": 114
     },
     {
       "name": "Outlines",
@@ -792,7 +792,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「LLM 结构化输出」** 通过有限状态机和正则约束实现LLM输出的100%结构化。",
-      "line": 141
+      "line": 115
     },
     {
       "name": "Instructor",
@@ -808,7 +808,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「LLM 结构化输出」** 基于Pydantic的LLM结构化输出库，通过类型注解让LLM直接返回Python对象。",
-      "line": 142
+      "line": 116
     },
     {
       "name": "Agent-S",
@@ -824,7 +824,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "🆕 开源 computer-use Agent 的 SOTA 系列：像人一样看屏幕、点鼠标，是 CUA 赛道最常被引用的基线。",
-      "line": 143
+      "line": 117
     },
     {
       "name": "Microsoft Agent Framework",
@@ -840,7 +840,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「企业级统一 Agent 框架」** 🆕 **2026年4月3日发布1.0**，将 Semantic Kernel + AutoGen 合并为单一生产级SDK（.NET + Python特性对齐），命名空间 `Microsoft.Agents.AI`。原生支持MCP与A2A协议，紧密集成Azure AI Foundry。原SK与AutoGen v0.4转入维护轨道。",
-      "line": 144
+      "line": 118
     },
     {
       "name": "JoyAgent-JDGenie",
@@ -856,7 +856,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "🆕 京东开源的**端到端产品级通用智能体**，Java 技术栈——国内少见的「开箱即用整机方案」，而不是又一个 SDK。",
-      "line": 145
+      "line": 119
     },
     {
       "name": "cloudflare-os",
@@ -872,7 +872,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「🆕 Agent 企业工作区」** 🆕 **2026年10月初热榜**。基于 Cloudflare Workers 的\"公司级Agent工作空间\"——内置安全框架与沙箱机制，把Agent接入企业账号、边界与合规体系。云厂商亲自下场定义\"Agent运行时该长在哪\"。",
-      "line": 146
+      "line": 120
     },
     {
       "name": "VoltAgent",
@@ -888,7 +888,7 @@
       "category_index": 1,
       "tier": "⭐ 快速增长（⭐ 10k - 50k）",
       "desc": "**「Agent 工程平台」** 🆕 TypeScript生态Agent工程平台，内置可观测性、评估工具和工作流引擎。",
-      "line": 147
+      "line": 121
     },
     {
       "name": "MobileAgent",
@@ -904,7 +904,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 移动设备 GUI Agent 家族：让 Agent 直接操作手机 App，不依赖无障碍接口。",
-      "line": 153
+      "line": 127
     },
     {
       "name": "PraisonAI",
@@ -920,7 +920,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 低代码多 Agent 系统：融合 AutoGen / CrewAI 的思路，强调「少写胶水代码」，一句 `pip install` 就能起一套 Agent 团队。",
-      "line": 154
+      "line": 128
     },
     {
       "name": "Astron Agent",
@@ -936,7 +936,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 企业级、商业友好的 Agentic 工作流平台，面向 SuperAgent 构建，主打私有化与合规。",
-      "line": 155
+      "line": 129
     },
     {
       "name": "XAgent",
@@ -952,7 +952,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「自主复杂任务求解」** 清华团队出品的自主Agent，专注于复杂任务的自动分解和执行。",
-      "line": 156
+      "line": 130
     },
     {
       "name": "MiroThinker",
@@ -968,7 +968,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 开源**搜索 Agent 模型**，对标 OpenAI / Gemini Deep Research，专攻工具增强推理与真实信息检索。**「Agent 专用模型」这一支的代表。**",
-      "line": 157
+      "line": 131
     },
     {
       "name": "Voyager",
@@ -984,7 +984,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「具身终身学习 Agent」** NVIDIA出品，在Minecraft中实现具身Agent的终身学习。",
-      "line": 158
+      "line": 132
     },
     {
       "name": "OpenSquilla",
@@ -1000,7 +1000,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 令牌高效的**微内核** Agent——把「省 token」做进架构而不是提示词，内核极小、能力靠插件。",
-      "line": 159
+      "line": 133
     },
     {
       "name": "PRAXIST",
@@ -1016,7 +1016,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「自主研究 Agent」** 🆕 **2026年8月27日开源**。自主研究系统，核心创新是\"可测量、可计算机执行\"的研究范式——不满足于写论文，而是产出可被计算机自动验证的研究成果。一周内冲上6k+⭐，代表Agent从\"写代码\"扩展到\"做科研\"的新方向。",
-      "line": 160
+      "line": 134
     },
     {
       "name": "SandBox",
@@ -1032,7 +1032,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 一体化 Agent 沙箱：**单个 Docker 容器**内集成浏览器、Shell、文件、MCP 与 VSCode Server。Agent 执行环境的「标准集装箱」。",
-      "line": 161
+      "line": 135
     },
     {
       "name": "TaskWeaver",
@@ -1048,7 +1048,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「代码优先数据分析 Agent」** 微软出品的代码优先Agent，擅长数据分析和可视化。",
-      "line": 162
+      "line": 136
     },
     {
       "name": "Nexent",
@@ -1064,7 +1064,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 零代码生成 Agent 平台：不用拖拽编排，用自然语言直接生成 Agent——「编排」本身也被 Agent 化了。",
-      "line": 163
+      "line": 137
     },
     {
       "name": "Agents",
@@ -1080,7 +1080,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 面向数据的**自演进** Agent 框架，主打「Agent 随数据一起进化」，与 EvoAgentX 同属「会改自己的 Agent」方向。",
-      "line": 164
+      "line": 138
     },
     {
       "name": "AG2",
@@ -1096,7 +1096,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「AutoGen 社区版」** AutoGen项目的社区活跃分支，**正迈向v1.0**，对ConversableAgent、GroupChat等进行整理与弃用清理。",
-      "line": 165
+      "line": 139
     },
     {
       "name": "DeepAnalyze",
@@ -1112,7 +1112,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 首个**自主数据科学** Agentic LLM：从取数、清洗、分析到产出分析师级报告，把「数据科学」整条链路交给 Agent。",
-      "line": 166
+      "line": 140
     },
     {
       "name": "Youtu-Agent",
@@ -1128,7 +1128,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 「仅用开源模型就能交付」的 Agent 框架，强调可落地而非刷榜。",
-      "line": 167
+      "line": 141
     },
     {
       "name": "Vercel Eve",
@@ -1144,7 +1144,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「文件系统优先 Agent 框架」** 🆕 Vercel出品的开源Agent框架，核心理念\"**文件系统即创作界面**\"。Agent能力以约定文件结构存在（instructions.md、agent.ts等），项目更易检查、扩展和运维。`vercel deploy`一键部署，Apache 2.0许可。",
-      "line": 168
+      "line": 142
     },
     {
       "name": "OpenBot",
@@ -1160,7 +1160,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「开源 AI 同事」** 🆕 **2026年8月17日开源**，MIT许可。每个AI Agent拥有自己的电脑——独立浏览器、文件和工具。核心理念：**每个动作执行前先决定、执行后留痕**（decide→act→record）。支持AG-UI协议接入任意Agent，是Agent治理（governance）理念的代表项目。",
-      "line": 169
+      "line": 143
     },
     {
       "name": "OpenAgents",
@@ -1176,7 +1176,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 面向开放协作的 **Agent 网络**——Agent 之间互相发现、互相调用，是「Agent 互联网」理念的落地尝试。",
-      "line": 170
+      "line": 144
     },
     {
       "name": "agent-desktop",
@@ -1192,7 +1192,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 跨平台 CLI + C 库，用**操作系统无障碍树**让 Agent 读取与操作桌面应用，绕开像素匹配。**桌面自动化从「截图点按」转向「语义操作」。**",
-      "line": 171
+      "line": 145
     },
     {
       "name": "LazyLLM",
@@ -1208,7 +1208,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 低代码多 Agent 应用开发工具，配套 LazyCraft 平台，主打「从原型到上线」的最小阻力路径。",
-      "line": 172
+      "line": 146
     },
     {
       "name": "treg",
@@ -1224,7 +1224,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「Agent 工具注册系统」** 🆕 **2026年9月热榜**（9月月榜收录）。面向AI Agent的工具注册与代理系统（Tool Registry）——把分散的MCP/函数/技能统一注册、发现和路由，是Agent工具层的\"服务注册中心\"。",
-      "line": 173
+      "line": 147
     },
     {
       "name": "sprix-sage-router",
@@ -1240,7 +1240,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「A2A Agent 路由器」** 🆕 **2026年8月18日开源**，MIT许可。为A2A Agent网络提供状态感知的SELF/COLLABORATE/HANDOFF三态路由，解决多Agent网络中\"谁该处理这个任务\"的动态路由问题。",
-      "line": 174
+      "line": 148
     },
     {
       "name": "cumora",
@@ -1256,7 +1256,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「Agent 团队聊天」** 🆕 **2026年8月17日开源**，MIT许可。跨平台团队聊天，AI Agent作为一等公民参与——支持Cloud或自带模型（Claude Code/Codex作为\"大脑\"）。解决了多Agent协作中\"Agent之间怎么沟通\"的痛点，将团队聊天从\"人与人\"扩展到\"人与Agent\"。",
-      "line": 175
+      "line": 149
     },
     {
       "name": "BeeAI",
@@ -1272,7 +1272,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「IBM 多 Agent 框架」** IBM研究院出品的多Agent框架，基于开放协议设计，支持跨框架的Agent互操作。",
-      "line": 176
+      "line": 150
     },
     {
       "name": "EvoAgentX",
@@ -1288,7 +1288,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 构建可自我演进的 Agent 生态：自动生成、评测、迭代 Agent 工作流。",
-      "line": 177
+      "line": 151
     },
     {
       "name": "ii-agent",
@@ -1304,7 +1304,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 新一代 Agent 框架，主打「构建 + 部署」一条龙，面向研究型长任务。",
-      "line": 178
+      "line": 152
     },
     {
       "name": "PenguinHarness",
@@ -1320,7 +1320,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 统一的 **RSI（递归自我改进）平台**，桌面 / 服务器直接跑的自动化 Agent 构建器。",
-      "line": 179
+      "line": 153
     },
     {
       "name": "TokenEconomizer",
@@ -1336,7 +1336,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 黑盒成本控制框架：微技能记忆 + 工具裁剪 + 失败循环干预，专治编码 Agent「越跑越贵」。**成本优化开始从「换模型」下沉到「改运行时」。**",
-      "line": 180
+      "line": 154
     },
     {
       "name": "MoA",
@@ -1352,7 +1352,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 Mixture-of-Agents：用多个 LLM 的集体输出提升单次回答质量（AlpacaEval 65.1%）。**「多模型投票」的经典实现。**",
-      "line": 181
+      "line": 155
     },
     {
       "name": "Atlas",
@@ -1368,7 +1368,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「多 Agent 会话版本控制」** 🆕 **2026年9月热榜**。Rust编写，为多Agent编码会话提供\"源码管理\"——并行Agent的产出可diff、可回溯、可合并。与orca、walgit共同构成并行编码Agent的Git层基建。",
-      "line": 182
+      "line": 156
     },
     {
       "name": "fx",
@@ -1384,7 +1384,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「Unix 风格编码 Agent」** 🆕 **2026年8月11日开源**，Apache 2.0。Vercel Labs出品，用 **Zig** 编写的终端编码Agent，核心理念\"Unix like coding agent\"——极简、组合式、一切皆管道。代表了编码Agent从TypeScript/Rust向系统级语言扩展的新趋势。",
-      "line": 183
+      "line": 157
     },
     {
       "name": "OmAgent",
@@ -1400,7 +1400,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 多模态 Agent 框架（EMNLP 2024），支持视频 / 图像 / 音频的复杂任务编排。",
-      "line": 184
+      "line": 158
     },
     {
       "name": "AgentField",
@@ -1416,7 +1416,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 把 Agent 当 API / 微服务**运营**的控制平面：路由、记忆、可观测性、身份、鉴权、策略一体。**「Agent 的 Kubernetes 化」。**",
-      "line": 185
+      "line": 159
     },
     {
       "name": "agentUniverse",
@@ -1432,7 +1432,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 蚂蚁的多智能体框架，沉淀金融级领域模式（PEER / DOE），强调「可复用的协作范式」而不是又一套 SDK。",
-      "line": 186
+      "line": 160
     },
     {
       "name": "Lagent",
@@ -1448,7 +1448,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 轻量 Agent 框架，书生系配套，二次开发成本低。",
-      "line": 187
+      "line": 161
     },
     {
       "name": "dsh-superagent-prototype",
@@ -1464,7 +1464,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 **11-01 开源的研究原型**：面向单个 GitHub 仓库的**主动编码代理**，Router / Ticket / Worker 三件套把「持续接活」与「执行」拆开，自动建工作项并提 PR，模拟调度 P95 15.7 分钟（对比 29.5 分钟）。首日即进日榜前五。",
-      "line": 188
+      "line": 162
     },
     {
       "name": "OxyGent",
@@ -1480,7 +1480,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 ACL 2026 论文配套：让多 Agent 系统更「模块化、可替换」，京东在 Agent 框架层的第二枚棋子。",
-      "line": 189
+      "line": 163
     },
     {
       "name": "rakazo",
@@ -1496,7 +1496,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「开源 Grok Bot 替代」** 🆕 **2026年8月13日开源**，Apache 2.0。开源Grok Bot替代方案，可选任意模型+沙箱执行。让用户不依赖xAI官方即可运行类Grok的自主Agent。",
-      "line": 190
+      "line": 164
     },
     {
       "name": "FrontierAgent",
@@ -1512,7 +1512,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「轻量 Agent 框架」** 🆕 **2026年8月22日开源**，Apache 2.0。原生命令行TUI，ReAct和Agent Team双模式，macOS/Linux一行命令启动，无需预装、无硬Docker依赖。定位为\"零摩擦启动\"的Agent框架。",
-      "line": 191
+      "line": 165
     },
     {
       "name": "Agently",
@@ -1528,7 +1528,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 表达力优先的 Agent 开发框架，用接近自然语言的 DSL 描述 Agent 行为。",
-      "line": 192
+      "line": 166
     },
     {
       "name": "Cooragent",
@@ -1544,7 +1544,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 Agent 协作社区：一句话生成协作团队，社区共享 Agent 组合。",
-      "line": 193
+      "line": 167
     },
     {
       "name": "cindy",
@@ -1560,7 +1560,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 开箱即用的开源 AI Agent，10-27 日榜单日 +1,446。",
-      "line": 194
+      "line": 168
     },
     {
       "name": "oh-my-agent",
@@ -1576,7 +1576,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 **厂商无关的 harness**：给已有编码 Agent（Claude Code / Codex CLI / Cursor）加规划、工程、评审、调试角色，只需一个可移植的 `.agents/` 目录。11-01 刚进 awesome 列表。",
-      "line": 195
+      "line": 169
     },
     {
       "name": "OpenMausBot",
@@ -1592,7 +1592,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 开源 Grok Bot 替代方案，自带虚拟机运行环境；11-01 日榜单日 +1,303。",
-      "line": 196
+      "line": 170
     },
     {
       "name": "Tribe",
@@ -1608,7 +1608,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 无代码多 Agent 团队编排工具。",
-      "line": 197
+      "line": 171
     },
     {
       "name": "Orkas",
@@ -1624,7 +1624,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 本地优先的桌面 AI 团队：Commander 协调 **16 个专家 Agent**，数据不出本机。",
-      "line": 198
+      "line": 172
     },
     {
       "name": "Agentarium",
@@ -1640,7 +1640,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 Agent 群体仿真框架，用于观察多 Agent 交互的涌现行为。",
-      "line": 199
+      "line": 173
     },
     {
       "name": "IoA",
@@ -1656,7 +1656,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 Internet of Agents：分布式异构 Agent 像互联网一样组队，解决跨组织协作。",
-      "line": 200
+      "line": 174
     },
     {
       "name": "macos-harness",
@@ -1672,7 +1672,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「LLM 操控 Mac」** 🆕 **2026年8月17日开源**，MIT许可。browser-use团队出品，\"最简单、最薄的harness\"让LLM完全自由操控Mac。与browser-use的浏览器自动化互补，覆盖了Agent操控桌面操作系统的最后一环。",
-      "line": 201
+      "line": 175
     },
     {
       "name": "LazyCraft",
@@ -1688,7 +1688,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 基于 LazyLLM 的 Agent 应用开发与管理平台，低门槛发布大模型应用。",
-      "line": 202
+      "line": 176
     },
     {
       "name": "FastAgency",
@@ -1704,7 +1704,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 把多 Agent 工作流最快送上生产（AutoGen 生态），专注「最后一公里」。",
-      "line": 203
+      "line": 177
     },
     {
       "name": "Yunjue-Agent",
@@ -1720,7 +1720,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "🆕 完全可复现、零起点、原位自演进的开放任务 Agent 系统。",
-      "line": 204
+      "line": 178
     },
     {
       "name": "agent-safe-pipeline",
@@ -1736,7 +1736,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「Agent 安全管线」** 🆕 **2026年8月13日开源**，Apache 2.0。**参考架构级**Agent安全方案：Agent提议动作但不可授权——不可变意图捕获、独立策略裁决（ALLOW/ESCALATE/BLOCK）、人工审批、单次意图绑定令牌的SafeExecutor。从架构层面保证Agent永远不可越权。（详见安全赛道）",
-      "line": 205
+      "line": 179
     },
     {
       "name": "rome",
@@ -1752,7 +1752,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「Agent 操作系统」** 🆕 **2026年8月23日开源**，MIT许可。\"Rome is the agentic OS\"——将Agent作为一等公民的操作系统概念验证。代表了Agent从\"应用\"走向\"操作系统级抽象\"的前沿探索。",
-      "line": 206
+      "line": 180
     },
     {
       "name": "oc",
@@ -1768,7 +1768,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「网站转 CLI」** 🆕 **2026年8月18日开源**，MIT许可。将任意网站转化为AI Agent友好的精简CLI——用几百token浏览网页而非几万token。大幅降低Agent访问Web的Token成本，是headroom（上下文压缩）理念在Web领域的落地。",
-      "line": 207
+      "line": 181
     },
     {
       "name": "whip",
@@ -1784,7 +1784,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「Go 编码 Agent Harness」** 🆕 **2026年8月20日开源**，Apache 2.0。Go语言编写的快速编码Agent harness，工具循环+bubbletea TUI+模型路由+MCP支持+后台子Agent。单二进制、无运行时依赖，专为开源模型优化。",
-      "line": 208
+      "line": 182
     },
     {
       "name": "teamai-cli",
@@ -1800,7 +1800,7 @@
       "category_index": 1,
       "tier": "🔧 潜力新星（⭐ 10k 以下，含 8—10 月新开源的小体量项目）",
       "desc": "**「企业级 Agent Harness CLI」** 🆕 **2026年9月9日开源**。腾讯把内部Agent工程能力以CLI形态开源，标志**Agent Harness 战火烧到大厂**——继DeepSeek DSH之后，国内大厂在harness层集体入场。",
-      "line": 209
+      "line": 183
     },
     {
       "name": "Superpowers",
@@ -1816,7 +1816,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "**Skills 赛道的总榜第一**。一套 Agent 驱动的软件开发方法论框架，遵循 Spec→Plan→Implement→Review→Ship 严格流程。23000+ Fork 说明大量团队基于它做二次定制，正在成为「企业内部 AI 开发流程标准」。10-02 日榜上「给编码智能体配技能和流程」的项目数量首次成为单期最多。",
-      "line": 219
+      "line": 193
     },
     {
       "name": "Matt Pocock Skills",
@@ -1832,7 +1832,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "前 Vercel TypeScript 布道者开源的 21 个 Claude Code 技能。核心设计理念「小而可组合」——不走全流程接管，给你能自由搭配的积木块。明星技能：grill-me（Agent 反拷问需求）、tdd（红绿重构）、code-review（双轴并行评审）。",
-      "line": 220
+      "line": 194
     },
     {
       "name": "ECC",
@@ -1848,7 +1848,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "面向多种编码 Agent 的**协调工程系统**——内置规划、审查、安全等 **68 个专用 Agent 角色**，把「一个 Agent 干活」升级为「一支训练有素的部队协作」。非模型类仓库星标最高者之一。",
-      "line": 221
+      "line": 195
     },
     {
       "name": "Andrej Karpathy Skills",
@@ -1864,7 +1864,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "基于 Karpathy 工程理念构建的 Agent 技能包，覆盖代码审查、架构设计、调试方法论等。星标增速惊人。",
-      "line": 222
+      "line": 196
     },
     {
       "name": "Ponytail",
@@ -1880,7 +1880,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "**「让 AI 像懒开发者一样思考」**。核心机制是「最省力阶梯」——先读代码再决策、能不写就不写、能少写就少写，实测**减少 54% 代码产出**。直击 AI 编码「过度构建」痛点。",
-      "line": 223
+      "line": 197
     },
     {
       "name": "G Stack",
@@ -1896,7 +1896,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "**Y Combinator 总裁 Garry Tan 的 Claude Code 配置包**。把创业公司角色拆成工具：CEO、设计师、工程经理、发布经理、文档工程师、QA。工作流：think→plan→build→review→test→ship→reflect。亮点 skill `/office-hours` 模拟 YC 合伙人拷问过程。",
-      "line": 224
+      "line": 198
     },
     {
       "name": "caveman",
@@ -1912,7 +1912,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "「穴居人说话，省 Token」。让 Agent 用极度简练的「穴居人」式英语输出，**Token 消耗最高削减 65%**。核心实现已用 Go 重写；README 定位已从「提示词技能」改为「技能 + 代理层」。",
-      "line": 225
+      "line": 199
     },
     {
       "name": "Agent Skills",
@@ -1928,7 +1928,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "Google Chrome 工程经理出品的生产级技能包，24 个技能 + 8 条 Slash 命令，覆盖 DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP 六阶段。三支柱：安全（OWASP Top 10）、性能（Lighthouse/Core Web Vitals）、无障碍（WCAG 2.2 AA）。",
-      "line": 226
+      "line": 200
     },
     {
       "name": "impeccable",
@@ -1944,7 +1944,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "「AI 设计语言」Skill——专治前端模板化问题，约束 AI 生成原创性更强的界面（配色、排版、动效去套路化）。与 hallmark 同属「反 AI 味设计」方向，但体量大了两个数量级。",
-      "line": 227
+      "line": 201
     },
     {
       "name": "archify",
@@ -1960,7 +1960,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "AI Agent 图表技能——让 Agent 生成可交互的 HTML 架构图/流程图/系统图，把「画架构图」这一高频需求封装成即插即用 Skill。10 月遭遇 diagram-design 正面竞争。",
-      "line": 228
+      "line": 202
     },
     {
       "name": "diagram-design",
@@ -1976,7 +1976,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 **10 月上旬新晋细分冠军**：44 种图表类型，输出自包含 HTML + SVG，设计原则写得很硬——「不要阴影、不要 Mermaid 味」。直接对标 archify，主打「能直接放进文档和 PPT 的图」。",
-      "line": 229
+      "line": 203
     },
     {
       "name": "cloudflare/security-audit-skill",
@@ -1992,7 +1992,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 recon→hunt→verify→report 多阶段审计技能，设计规则很关键：**「发现的 Agent 不能是验证的 Agent」**——用角色隔离对抗自评偏差。云厂商第一次亲自下场写安全 Skill。",
-      "line": 230
+      "line": 204
     },
     {
       "name": "i-have-adhd",
@@ -2008,7 +2008,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "ADHD 友好输出风格 Skill——强制编码助手以「要点先行、可执行步骤、无冗长铺垫」的方式输出。垂直人群 Skills 的典型代表，5 周冲上 5 万星。",
-      "line": 231
+      "line": 205
     },
     {
       "name": "scientific-agent-skills",
@@ -2024,7 +2024,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 **177 个科研技能 + 100+ 科学数据库连接**，每个 skill 自带 SKILL.md 与「验证范围」声明。把「科研工作流」整体技能化：检索、复现、统计、绘图、审稿。",
-      "line": 232
+      "line": 206
     },
     {
       "name": "hallmark",
@@ -2040,7 +2040,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "「终结 AI 生成代码的 AI 味」。提供反 AI 味设计规范的 Skill，定义严谨的设计 Token（颜色、间距、排版、圆角、阴影），让 AI 生成的前端代码看起来像专业设计师出手。",
-      "line": 233
+      "line": 207
     },
     {
       "name": "anatomy",
@@ -2056,7 +2056,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 **10-15 日榜第一**。基于 Claude 代理的技能，用 JavaScript 生成**交互式等距 SVG / WebGL / 3D 插图**，把技术概念画成可旋转的「实体模型」。适用于技术文档、教学与演示——是「图表类 Skills」里最偏 3D 的一支。",
-      "line": 234
+      "line": 208
     },
     {
       "name": "ip-as-logo-skill",
@@ -2072,7 +2072,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "生成高度简化、圆润、微妙新拟物风格的 IP 形象 Logo。Skills 赛道中「垂直设计」方向的标杆——将设计师审美固化为 Agent 可执行的配置。",
-      "line": 235
+      "line": 209
     },
     {
       "name": "unslop",
@@ -2088,7 +2088,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 专治「AI 味 UI」：识别并修复紫渐变、光晕、表情标签等 slop 特征，支持主流前端框架。与 impeccable / hallmark 组成「反 AI 味三件套」。",
-      "line": 236
+      "line": 210
     },
     {
       "name": "mono-color-skill",
@@ -2104,7 +2104,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "单色编辑级印刷图像 Skill——暖纸感、半调摄影、负空间、克制排版。将专业平面设计经验封装为 Agent 可执行的 Skill。",
-      "line": 237
+      "line": 211
     },
     {
       "name": "sepia",
@@ -2120,7 +2120,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "**去 AI 味写作 Skill**——适配 77+ Agent Skills 兼容客户端（Claude Code / Codex / Grok Build 原生插件）。基于 StoryScope 学术研究，对叙事结构做架构级修复，让 AI 生成的文字读起来像人写的。",
-      "line": 238
+      "line": 212
     },
     {
       "name": "scroll-craft",
@@ -2136,7 +2136,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "构建高端沉浸式滚动驱动网站的 Agent Skill，适配 Codex / Claude Code 等编码 Agent。把「动效设计」经验固化为可复用 Skill。",
-      "line": 239
+      "line": 213
     },
     {
       "name": "Claude-Code-Game-Studios",
@@ -2152,7 +2152,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 把 Claude Code 变成游戏工作室：**49 个 Agent + 72 个工作流技能**。「技能包组织化」的极端样本。",
-      "line": 240
+      "line": 214
     },
     {
       "name": "anthropics/skills",
@@ -2168,7 +2168,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 **Anthropic 官方 Agent Skills 仓库**——厂商亲自定义「技能该长什么样」，与社区注册中心（skills.sh / dshub）形成标准之争。",
-      "line": 241
+      "line": 215
     },
     {
       "name": "expo/skills",
@@ -2184,7 +2184,7 @@
       "category_index": 2,
       "tier": null,
       "desc": "🆕 面向 Expo 项目的官方 Agent 技能集。**框架方开始自己发技能**，技能从社区自发转向生态标配。",
-      "line": 242
+      "line": 216
     },
     {
       "name": "OpenClaw",
@@ -2200,7 +2200,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "全平台个人AI助手，GitHub有史以来Star数最高的AI项目之一。支持桌面、移动和Web端，内置插件生态、多模型切换和本地知识库。🆕 **2026年9月30日发布 OpenClaw 2.0——号称\"龙虾史上最大更新\"**，重构底层调度系统；实测内存峰值4GB、冷启动8.2秒，社区围绕其与Hermes的\"1.5GB/1.1秒\"轻量表现展开激烈路线之争（\"爱过，我选Hermes\"梗刷屏）。",
-      "line": 254
+      "line": 228
     },
     {
       "name": "Hermes Agent",
@@ -2216,7 +2216,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "与你共同成长的AI伙伴，三层记忆架构实现个性化进化。不仅能完成任务，还能学习和适应用户习惯。",
-      "line": 255
+      "line": 229
     },
     {
       "name": "OpenCode",
@@ -2232,7 +2232,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "开源终端编程Agent，**9月初已突破20.4万星**。支持多模型、代码理解和自动修复，是终端重度用户的高效编程伙伴，7.5M月活开发者。",
-      "line": 256
+      "line": 230
     },
     {
       "name": "Open Interpreter",
@@ -2248,7 +2248,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "让LLM直接操控你的电脑——用自然语言执行代码、管理文件、控制系统设置。AGPL-3.0许可，2026年仍为唯一将本地执行做得既轻量又扎实的开源实现。",
-      "line": 257
+      "line": 231
     },
     {
       "name": "Cherry Studio",
@@ -2264,7 +2264,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 全能AI桌面客户端，支持多LLM提供商（OpenAI/Gemini/Anthropic/Ollama等）。**300+预配置AI助手**、MCP Server支持、多模型同时对话、跨平台（Win/Mac/Linux）。AGPL-3.0许可，**v2.0.0-beta.1（7月24日）**，7700+次提交，社区极活跃。企业版支持私有化部署与统一知识库管理。",
-      "line": 258
+      "line": 232
     },
     {
       "name": "CowAgent",
@@ -2280,7 +2280,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "国产超级AI助手，深度集成微信/企微/飞书等国内主流平台。",
-      "line": 259
+      "line": 233
     },
     {
       "name": "AstrBot",
@@ -2296,7 +2296,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 松耦合、异步的多平台LLM聊天机器人及开发框架。支持QQ/微信/企微/飞书/钉钉/Telegram/Discord/Slack等平台接入。MCP服务器支持，多模型（OpenAI/DeepSeek/Gemini/Ollama等），**近800个插件**，WebUI管理。定位为OpenClaw替代方案，8月初已增长至3.8万星。",
-      "line": 260
+      "line": 234
     },
     {
       "name": "OpenHuman",
@@ -2312,7 +2312,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 **8月初已增长至36k**（6月仅21k）。主打\"本地优先\"的桌面AI助手。所有数据在本地处理，Rust实现，强调隐私和个性化，核心理念是\"你的AI应该住在你家里\"。",
-      "line": 261
+      "line": 235
     },
     {
       "name": "DSH Desktop",
@@ -2328,7 +2328,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 **2026年8月13日开源**。为DeepSeek Harness（DSH）插件生态打造的现代化桌面端解决方案，\"万物皆插件，桌面本身也是插件\"。是DSH生态中Star数最高的周边项目，与DSH本体合计超23万⭐。",
-      "line": 262
+      "line": 236
     },
     {
       "name": "OpenWorker",
@@ -2344,7 +2344,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 **吴恩达2026年7月24日开源**的桌面AI智能体。MIT许可，本地优先，不绑定模型（支持GPT-5.6/Claude Fable/Gemini 3.6及Kimi/GLM/DeepSeek等开源模型+Ollama本地）。在文件和日常工具中运行，执行任何重要操作前进行检查，从\"聊天\"转向\"交付成果\"。",
-      "line": 263
+      "line": 237
     },
     {
       "name": "Octop",
@@ -2360,7 +2360,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 **腾讯云2026年7月正式开源**的自托管AI助手。多用户、多Agent架构，单进程启动集成Web控制台+CLI+IM（飞书/钉钉/QQ/Discord/企微）。内置专家团库+16种MBTI人格模板，JWT安全隔离，ACP双向集成（OpenCode/Claude Code/Codex）。SQLite存储，所有数据在 `~/.octop/`，MIT许可。",
-      "line": 264
+      "line": 238
     },
     {
       "name": "codex-with-chatgpt",
@@ -2376,7 +2376,7 @@
       "category_index": 3,
       "tier": null,
       "desc": "🆕 **2026年8月28日开源**，MIT许可。\"ChatGPT thinks. Codex works.\"——用ChatGPT作为规划大脑，同时保留Codex harness执行层。巧妙拆分\"思考\"与\"执行\"，让强推理模型负责规划、强编码模型负责落地。",
-      "line": 265
+      "line": 239
     },
     {
       "name": "Codex CLI",
@@ -2392,7 +2392,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "OpenAI官方终端编程Agent，Rust编写。**9月初已突破12.1万星**，rust-v0.145.0，4周内697次提交。支持沙盒和自主双模式，原生GitHub集成，npm月下载约1400万。",
-      "line": 271
+      "line": 245
     },
     {
       "name": "browser-use",
@@ -2408,7 +2408,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "让AI Agent像人一样操控浏览器。**9月初已突破11.2万星**，v0.13.6（7月17日发布），持续活跃迭代，解决了Agent与Web交互的核心痛点。",
-      "line": 272
+      "line": 246
     },
     {
       "name": "Gemini CLI",
@@ -2424,7 +2424,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "Google出品的终端AI编程Agent，拥有100万token超大上下文窗口且免费使用（1000次/天）。**9月初增长至107k**，v0.52.0，688贡献者。",
-      "line": 273
+      "line": 247
     },
     {
       "name": "OpenHands",
@@ -2440,7 +2440,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "原名OpenDevin，AI软件开发Agent。**8月初已增长至85k+**，cloud-1.47.1版本，能自主编写代码、运行测试、修复Bug，是Devin类产品的最佳开源替代。",
-      "line": 274
+      "line": 248
     },
     {
       "name": "gpt\\_academic",
@@ -2456,7 +2456,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "面向学术的AI工具，支持论文阅读、翻译、润色、LaTeX排版和代码分析。",
-      "line": 275
+      "line": 249
     },
     {
       "name": "Cline",
@@ -2472,7 +2472,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "VS Code中最受欢迎的自主编程Agent插件。**9月初增长至67.5k**，v4.0.11，800万+活跃开发者。现以SDK、IDE扩展、CLI三种形态提供，核心是Plan/Act双阶段工作流+Kanban任务看板。",
-      "line": 276
+      "line": 250
     },
     {
       "name": "GPT-Engineer",
@@ -2488,7 +2488,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "用自然语言描述需求，自动生成完整应用程序。",
-      "line": 277
+      "line": 251
     },
     {
       "name": "Aider",
@@ -2504,7 +2504,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "终端AI结对编程工具，与Git深度集成。**9月初增长至49k**，410万+安装，每次改动自动提交。",
-      "line": 278
+      "line": 252
     },
     {
       "name": "open-code-review",
@@ -2520,7 +2520,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 AI 代码评审 CLI",
-      "line": 279
+      "line": 253
     },
     {
       "name": "CLI-Anything",
@@ -2536,7 +2536,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 把任意 GUI 软件（GIMP / Blender / LibreOffice）用**一条命令 + 一套 7 阶段流水线**转成 Agent-Native 命令行——无需 API、无需截图点击，Claude Code / Cursor / Codex 可直接操控。10-19 仍在日榜（607⭐/日 +）。**它代表的方向很关键：与其让 Agent 学会看屏幕，不如让软件学会被调用。**",
-      "line": 280
+      "line": 254
     },
     {
       "name": "CopilotKit",
@@ -2552,7 +2552,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "为React/Next.js应用添加AI Copilot能力的前端框架。发起AG-UI协议标准。",
-      "line": 281
+      "line": 255
     },
     {
       "name": "Continue",
@@ -2568,7 +2568,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "开源AI编程IDE插件。**8月初增长至36k**，v2.0.0-vscode。2026 Agent Mode支持多步自主任务，PR审查自动化规则以Markdown存于版本库，CI可强制执行。",
-      "line": 282
+      "line": 256
     },
     {
       "name": "t3code",
@@ -2584,7 +2584,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 AI 编程智能体**控制面板**：统一管理本机 Claude Code / Codex / Cursor 等多种 Agent，支持移动 / Web / 桌面远程操控。**并行 Agent 的「驾驶舱」**——当一个人同时开 6 个 Agent 时，谁来调度、谁来收结果。",
-      "line": 283
+      "line": 257
     },
     {
       "name": "Tabby",
@@ -2600,7 +2600,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "Rust编写的自托管AI编码助手，数据完全私有化部署。",
-      "line": 284
+      "line": 258
     },
     {
       "name": "GPT-Pilot",
@@ -2616,7 +2616,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "AI开发搭档，模拟完整的软件开发流程。",
-      "line": 285
+      "line": 259
     },
     {
       "name": "Kilo Code",
@@ -2632,7 +2632,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 Cline社区分支中增长最快的项目。4周内1355次提交、1166贡献者，是编码Agent生态中社区最活跃的项目之一。热度评分66.0，仅次于Codex CLI和Gemini CLI。",
-      "line": 286
+      "line": 260
     },
     {
       "name": "Roo Code",
@@ -2648,7 +2648,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "Cline的最活跃社区分支，在原版基础上增加了自定义模式、MCP增强和UI优化。",
-      "line": 287
+      "line": 261
     },
     {
       "name": "SWE-agent",
@@ -2664,7 +2664,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "普林斯顿出品，自动定位和修复代码Bug并提交PR。**8月初增长至20.5k**，在SWE-bench评测中表现优异。",
-      "line": 288
+      "line": 262
     },
     {
       "name": "Bolt.diy",
@@ -2680,7 +2680,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "Bolt.new的开源版本，AI全栈Web开发平台。",
-      "line": 289
+      "line": 263
     },
     {
       "name": "Devika",
@@ -2696,7 +2696,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "Cognition AI旗下Devin的开源替代品，自主AI软件工程师。",
-      "line": 290
+      "line": 264
     },
     {
       "name": "avante.nvim",
@@ -2712,7 +2712,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 Neovim用户的AI编码Agent插件，将Claude Code式体验带入Neovim生态，支持多模型和工具调用。",
-      "line": 291
+      "line": 265
     },
     {
       "name": "text-to-cad",
@@ -2728,7 +2728,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 自然语言生成 CAD",
-      "line": 292
+      "line": 266
     },
     {
       "name": "Plandex",
@@ -2744,7 +2744,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 终端AI编码Agent，Go语言编写。支持复杂项目的增量规划和执行，适合大型代码库的渐进式开发。",
-      "line": 293
+      "line": 267
     },
     {
       "name": "e2e",
@@ -2760,7 +2760,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 Agent 驱动端到端测试",
-      "line": 294
+      "line": 268
     },
     {
       "name": "walgit",
@@ -2776,7 +2776,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 **2026年8月23日开源**，MIT许可。Rust编写的Git仓库管理工具，为AI编码Agent的并行工作流设计——支持Worktree隔离、多Agent并行提交管理和跨分支结果合并。",
-      "line": 295
+      "line": 269
     },
     {
       "name": "git-ai / open_scion",
@@ -2792,7 +2792,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 **10-19 日榜第一，断层领先**。用 Go 实现的开源 Scion 版本控制系统，**专为大量短生命周期编码代理设计**：服务端 API、即时落地（instant landing）、冲突自动解决。当 10 个 Agent 并行改同一仓库时，「谁先落地、怎么合」成了新问题——这是它给出的答案。",
-      "line": 296
+      "line": 270
     },
     {
       "name": "esp32-iphone-agent",
@@ -2808,7 +2808,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 用约 **7 美元**的 ESP32-S3 板卡，通过 AirPlay 镜像取屏 + USB HID 模拟鼠标键盘，让 AI 直接操作真实 iPhone。**无需 Mac、开发者账号或越狱**，可跑任何 iOS 应用（绘图、设闹钟等）。Agent 硬件化最便宜的一次尝试。",
-      "line": 297
+      "line": 271
     },
     {
       "name": "goldie",
@@ -2824,7 +2824,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 **2026年8月24日开源**。Agent化App Store预览和截图工具，自动生成应用商店质量的产品截图。让AI编码Agent的交付物从\"代码\"延伸到\"上架素材\"。",
-      "line": 298
+      "line": 272
     },
     {
       "name": "open-claude-ui",
@@ -2840,7 +2840,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 用 **REA 逆向分析**完整还原 Claude 官方桌面端 UI：30 个高保真 React 组件 + 8 个交互物理算法 + 3000 行逆向手册。**「逆向」从二进制安全圈外溢到产品设计圈的标志性项目。**",
-      "line": 299
+      "line": 273
     },
     {
       "name": "lightpanda browser",
@@ -2856,7 +2856,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 为 AI 与自动化设计的**无头浏览器**，Zig 编写，主打低内存与快启动，替代 Puppeteer / Playwright 的重型方案。",
-      "line": 300
+      "line": 274
     },
     {
       "name": "earshot",
@@ -2872,7 +2872,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 让编码 Agent 获得「听觉」：音频描述、匹配、查找、对比、鉴真、音画同步分析，以及用代码合成声音。补齐 Agent 在音频维度上的感知缺口。",
-      "line": 301
+      "line": 275
     },
     {
       "name": "blender-ai-mcp-addon",
@@ -2888,7 +2888,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 把 MCP 服务器直接塞进 Blender：视觉聊天工作区 + 场景工具，多模型、多 Agent 自动化 3D 场景操作。**MCP 从「开发工具」渗透进「创意软件」。**",
-      "line": 302
+      "line": 276
     },
     {
       "name": "eleven",
@@ -2904,7 +2904,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 跨平台（macOS / Windows / Linux）逆向工程应用，**围绕「可插拔 Agent 客户端协议」构建**，支持二进制、APK、GPU 内核等文件类型的交互式分析。逆向工具开始按「Agent 优先」重新设计，而不是给 Agent 套壳。",
-      "line": 303
+      "line": 277
     },
     {
       "name": "thinkrail",
@@ -2920,7 +2920,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 JetBrains 出品的轻量 IDE 式 vibe coding 工具，在真实 IDE 里以对话方式改代码。**IDE 厂商开始自己做 Agent 客户端。**",
-      "line": 304
+      "line": 278
     },
     {
       "name": "agenttrail",
@@ -2936,7 +2936,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 **2026年8月21日开源**，MIT许可。AI编码Agent的无限画布——每个仓库是可缩放实时地图上的一个区域，可视化Claude Code/Codex/Cursor的会话、计划、工具调用和文件变更。本地运行、零依赖。",
-      "line": 305
+      "line": 279
     },
     {
       "name": "indra",
@@ -2952,7 +2952,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 约 **1M 参数**的轻量 OCR 模型，专为 CPU 高速运行设计：**49 页/秒**把 PDF/图片转成 markdown、纯文本或带坐标 JSON。在「大模型做 OCR」的潮流里反向做小。",
-      "line": 306
+      "line": 280
     },
     {
       "name": "ruflo",
@@ -2968,7 +2968,7 @@
       "category_index": 4,
       "tier": null,
       "desc": "🆕 「原始 Agent Harness」——多智能体集群、自适应记忆与联邦协作。在 harness 层继续往「分布式」方向推。",
-      "line": 307
+      "line": 281
     },
     {
       "name": "claude-mem",
@@ -2984,7 +2984,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "专注 Claude Code 等编码助手的**跨会话持久记忆**与上下文压缩管理，用 AI 压缩技术处理长对话并在下次会话自动注入相关上下文。**10 月 9 日破 10 万**（10-07 为 9.72 万，10-12—13 连发 v13.36.1→v13.39.0），是 Claude Code 生态中增长最快的记忆方案，已迁移至 TypeScript 实现。",
-      "line": 324
+      "line": 298
     },
     {
       "name": "RAGFlow",
@@ -3000,7 +3000,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "深度文档解析 RAG 引擎，支持 PDF/Word/PPT 等复杂格式的精准解析。内置 OCR、版面分析和表格识别，文档理解能力最强的开源 RAG 方案，企业级知识库首选。",
-      "line": 325
+      "line": 299
     },
     {
       "name": "headroom",
@@ -3016,7 +3016,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "**AI Agent 上下文压缩层**，Token 消耗降低 60—95% 且答案不变。压缩工具输出、日志、文件和 RAG 分块后再送入 LLM；提供库、代理和 MCP 服务器三种形态，CCR（内容压缩检索）机制实现无损还原，对 Agent 完全透明。实测 SRE 调试场景从 65,694 token 压到 5,118（省 92%）。Apache 2.0，7 月 GitHub Trending #1。10-19 仍在日榜（317⭐/日 +）。",
-      "line": 326
+      "line": 300
     },
     {
       "name": "Mem0",
@@ -3032,7 +3032,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "AI Agent 通用记忆层，为 Agent 提供持久化的长期记忆能力，自动提取、存储和检索用户偏好与对话历史。⚠️ **1.0.0 服务器存在 CVE-2026-31241**（10 月 8 日披露，任意 `user_id/agent_id` 可未鉴权删除记忆记录），生产环境需先升级。",
-      "line": 327
+      "line": 301
     },
     {
       "name": "AnythingLLM",
@@ -3048,7 +3048,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "最易用的本地 RAG 桌面应用，一键部署无需技术背景。",
-      "line": 328
+      "line": 302
     },
     {
       "name": "PrivateGPT",
@@ -3064,7 +3064,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "100% 离线运行的 RAG 方案，所有数据和推理完全在本地处理。",
-      "line": 329
+      "line": 303
     },
     {
       "name": "LlamaIndex",
@@ -3080,7 +3080,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "文档 Agent + 数据框架。**Workflows 1.0（6 月 22 日）**：轻量、事件驱动、async-first、step-based。LlamaCloud 更名为 LlamaParse，转向 agentic 文档处理。Salesforce、KPMG、Deutsche Telekom 等企业采用。",
-      "line": 330
+      "line": 304
     },
     {
       "name": "hindsight",
@@ -3096,7 +3096,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "🆕 **10 月 13 日发布 v1.0.0**，「会学习的 Agent 记忆」——记忆不只是存取，还带反馈与衰减。是 10 月第一批「有版本线」的记忆项目。",
-      "line": 331
+      "line": 305
     },
     {
       "name": "codebase-memory-mcp",
@@ -3112,7 +3112,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "把代码库索引为持久化知识图谱，纯 C 编写，158 种语言 AST 解析，子毫秒级查询。完整 Linux 内核（2800 万行）3 分钟索引，官方宣称 Token 消耗减少 99%，并带 3D 可视化。",
-      "line": 332
+      "line": 306
     },
     {
       "name": "OpenViking",
@@ -3128,7 +3128,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "**火山引擎开源的「AI Agent 上下文数据库」**（2026 年 1 月发布）。用虚拟文件系统统一管理**记忆、资源（RAG）与技能**，支持 **L0/L1/L2 分层检索**——Agent 上下文从「散件拼装」走向「数据库级抽象」，可自进化。",
-      "line": 333
+      "line": 307
     },
     {
       "name": "Quivr",
@@ -3144,7 +3144,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "「开源第二大脑」，个人知识管理利器。",
-      "line": 334
+      "line": 308
     },
     {
       "name": "LightRAG",
@@ -3160,7 +3160,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "港大出品，轻量高速的 RAG 框架。",
-      "line": 335
+      "line": 309
     },
     {
       "name": "GraphRAG",
@@ -3176,7 +3176,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "微软出品，知识图谱增强 RAG。",
-      "line": 336
+      "line": 310
     },
     {
       "name": "PageIndex",
@@ -3192,7 +3192,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "无向量推理 RAG，摒弃传统向量检索范式。",
-      "line": 337
+      "line": 311
     },
     {
       "name": "WeKnora",
@@ -3208,7 +3208,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "**腾讯开源的企业级 LLM 知识框架**，9 月中旬开源后不到一个月冲上 3 万星。定位「**RAG + Agent + Wiki 三合一**」：支持 GraphRAG，能自动把零散文档整理成**可自我进化的「活知识库 / Wiki」**，MIT 许可。",
-      "line": 338
+      "line": 312
     },
     {
       "name": "Danswer",
@@ -3224,7 +3224,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "企业级 AI 搜索平台，连接 Slack / Google Drive / Confluence 等企业数据源。",
-      "line": 339
+      "line": 313
     },
     {
       "name": "cognee",
@@ -3240,7 +3240,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "基于知识图谱的 Agent 持久化记忆引擎，替代传统 RAG 方案。通过图结构存储和检索知识，支持复杂的关联推理。",
-      "line": 340
+      "line": 314
     },
     {
       "name": "context-mode",
@@ -3256,7 +3256,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "🆕 **10 月新晋**：把工具输出「沙箱化」后再交给模型，宣称上下文体积 **−98%**。与 headroom 的区别是它更偏「隔离与重放」，而非纯压缩。",
-      "line": 341
+      "line": 315
     },
     {
       "name": "FastGPT",
@@ -3272,7 +3272,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "知识库 + Agent 工作流平台，提供可视化工作流编辑器。",
-      "line": 342
+      "line": 316
     },
     {
       "name": "TencentDB-Agent-Memory",
@@ -3288,7 +3288,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "🆕 **10 月 9 日 v2.0.2**。把 **Chat 记忆 / Skill / LLM-Wiki / Code-Graph** 当作四类「受治理资产」统一管理——记忆第一次被当成需要权限、版本与生命周期的东西。与混元 Hy-Memory 2.0 形成腾讯内部「双记忆」路线（一个偏基础设施、一个偏模型）。",
-      "line": 343
+      "line": 317
     },
     {
       "name": "kotaemon",
@@ -3304,7 +3304,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "RAG 文档 QA 工具，专注技术文档问答场景。",
-      "line": 344
+      "line": 318
     },
     {
       "name": "MaxKB",
@@ -3320,7 +3320,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "1Panel 团队出品的企业知识库问答系统。⚠️ **沙箱绕过 CVE-2026-77521**（10 月 4 日披露，攻击链经由被爬取网页的间接 Prompt Injection）。",
-      "line": 345
+      "line": 319
     },
     {
       "name": "DocsGPT",
@@ -3336,7 +3336,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "技术文档问答专精工具。",
-      "line": 346
+      "line": 320
     },
     {
       "name": "QAnything",
@@ -3352,7 +3352,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "网易有道出品的本地知识库系统。",
-      "line": 347
+      "line": 321
     },
     {
       "name": "production-agentic-rag-course",
@@ -3368,7 +3368,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "生产级 Agentic RAG 开源课程——从检索管线、评估到 Agent 化的 RAG 编排全流程实战，一个月内近万星，反映市场对「RAG 生产落地」技能的饥渴。",
-      "line": 348
+      "line": 322
     },
     {
       "name": "KAG",
@@ -3384,7 +3384,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "阿里 OpenSPG 出品的知识图谱增强 RAG 框架。",
-      "line": 349
+      "line": 323
     },
     {
       "name": "OptMem",
@@ -3400,7 +3400,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "轻量 AI Agent 永久记忆工具——本地存储、跨会话注入，主打「小而正确」，是个人开发者给 Agent 补记忆的最小可行方案。",
-      "line": 350
+      "line": 324
     },
     {
       "name": "Hy-Memory 2.0",
@@ -3416,7 +3416,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "🆕 **本轮最重要新项目，10 月 16 日发布**。腾讯混元把记忆拆成三层同时开源：**模型层 Hy-Memory-30B-A3B**（30B 总参 / 3B 激活的记忆写入模型，4 个 benchmark 上开源框架第一，平均分超过 Opus 5）、**框架层 `hy-memory` SDK**（PyPI，快慢双系统 + 分层记忆 + 向量检索 + 知识图谱）、**应用层 MemHub**（桌面端，让 10 种 AI 工具共享一份个人记忆）。覆盖**聊天 / 工作 / 代码**三类记忆，是业界首个把「工作记忆」单独建模的方案；论文被 EMNLP 2026 接收。",
-      "line": 351
+      "line": 325
     },
     {
       "name": "ai-memory",
@@ -3432,7 +3432,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "🆕 **10-19 日榜第 5**。为编码 Agent CLI 提供长期记忆与**跨厂商交接**能力——换一个 Agent 客户端，记忆还能带走。Rust 实现，主打「记忆不该被厂商锁定」。",
-      "line": 352
+      "line": 326
     },
     {
       "name": "PilotDeck 2.0",
@@ -3448,7 +3448,7 @@
       "category_index": 5,
       "tier": null,
       "desc": "🆕 **10 月 17 日开源**（清华 THUNLP × 面壁智能 × OpenBMB，AGPL-3.0）。以 **WorkSpace 工作舱**为单位隔离文件/记忆/任务；**白盒记忆**可查可改可回滚，空闲时 **Dream 模式**自动归纳去重，**Always-on** 支持关窗后继续跑；内置 **Smart Routing** 让强模型规划、小模型执行。Workbuddy Bench 上 Qwen3.6-35B-A3B 得 79.1（高于 Claude Code 77.3），7 个高难任务横评成本仅顶配单体的 **1/6**。",
-      "line": 353
+      "line": 327
     },
     {
       "name": "Ollama",
@@ -3464,7 +3464,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "「AI 界的 Docker」。v0.19+ 在 Apple Silicon 上原生使用 MLX 后端；10 月 8—14 日连发 v0.40.2→v0.40.5-rc0。新增云端 Pro（$20/月）/ Max（$100/月）层级，100+ 模型库。",
-      "line": 369
+      "line": 343
     },
     {
       "name": "llama.cpp",
@@ -3480,7 +3480,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "让 CPU 也能高效推理 LLM 的传奇项目。2026 年 3 月破 10 万星，GGUF 格式成为事实标准。",
-      "line": 370
+      "line": 344
     },
     {
       "name": "vLLM",
@@ -3496,7 +3496,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "高吞吐 LLM 推理引擎。PagedAttention + 连续批处理，约每 6.8 天发一个版本，生产环境部署的事实标准。",
-      "line": 371
+      "line": 345
     },
     {
       "name": "GPT4All",
@@ -3512,7 +3512,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "CPU 优先的桌面 LLM 应用，无需 GPU 即可在普通笔记本上运行大模型。",
-      "line": 372
+      "line": 346
     },
     {
       "name": "OmniRoute",
@@ -3528,7 +3528,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "免费 MIT 协议 AI Gateway：一个端点接入 290+ 提供商、500+ 模型。统一的 OpenAI 兼容 API，内置负载均衡和 Fallback 机制。",
-      "line": 373
+      "line": 347
     },
     {
       "name": "LiteLLM",
@@ -3544,7 +3544,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "统一 100+ LLM 的 API 网关。**10 月拆出 Rust core 发行版**，并新增 `litellm.agent(Harness.CLAUDE_CODE / CODEX / OPENCODE)`——网关开始直接「起 Agent」，从代理层上移到编排层。",
-      "line": 374
+      "line": 348
     },
     {
       "name": "LocalAI",
@@ -3560,7 +3560,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "本地 OpenAI 兼容服务器。",
-      "line": 375
+      "line": 349
     },
     {
       "name": "Jan",
@@ -3576,7 +3576,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "本地离线 AI 助手桌面应用。支持 MCP，零遥测。",
-      "line": 376
+      "line": 350
     },
     {
       "name": "FastChat",
@@ -3592,7 +3592,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "LMSYS 出品的模型训练/推理/评估一体化平台。",
-      "line": 377
+      "line": 351
     },
     {
       "name": "freellmapi",
@@ -3608,7 +3608,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "免费模型聚合网关——把多家厂商的免费额度/开放接口聚合成统一 API，配合 LiteLLM / OmniRoute 构成「零成本 LLM 接入」工具箱。",
-      "line": 378
+      "line": 352
     },
     {
       "name": "heretic",
@@ -3624,7 +3624,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "自动化 LLM「瘦身」工具——自动审查并剪除模型中冗余的结构与参数，在不显著损失能力的前提下缩小体积。自托管性价比战线的「模型侧」新武器。",
-      "line": 379
+      "line": 353
     },
     {
       "name": "SGLang",
@@ -3640,7 +3640,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "2026 年增长最快的服务框架，RadixAttention 前缀缓存，RAG 场景比 vLLM 快最高 6 倍，全球 40 万+ GPU 运行。**在「60% 算力用于重算上下文」的现实里，前缀缓存直接决定毛利。**",
-      "line": 380
+      "line": 354
     },
     {
       "name": "MLX",
@@ -3656,7 +3656,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "Apple 出品的机器学习框架，专为 Apple Silicon 优化。",
-      "line": 381
+      "line": 355
     },
     {
       "name": "Strata",
@@ -3672,7 +3672,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "一个月涨 3 倍的黑马（10 月 3 日 7,285⭐ → 10 月 15 日 2.51 万）。MIT、单人项目，用 **VRAM/RAM/SSD 三级分层 + 投机解码**把 125B 级 Qwen3.8-Flash-Next 塞进 12—24GB 消费级显卡；10 月 10—14 日连发 v0.1.42→v0.1.44.1（v0.1.42 宣称解码提速 13—16%）。",
-      "line": 382
+      "line": 356
     },
     {
       "name": "MLC-LLM",
@@ -3688,7 +3688,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "让 LLM 在手机/浏览器/IoT 设备上运行的跨平台推理引擎。",
-      "line": 383
+      "line": 357
     },
     {
       "name": "TensorRT-LLM",
@@ -3704,7 +3704,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "NVIDIA 官方 GPU 推理优化库。",
-      "line": 384
+      "line": 358
     },
     {
       "name": "LMDeploy",
@@ -3720,7 +3720,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "上海 AI Lab 出品的高效推理引擎。",
-      "line": 385
+      "line": 359
     },
     {
       "name": "DeepGEMM-Ascend / DeepEP-Ascend",
@@ -3736,7 +3736,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "🆕 DeepSeek × 华为昇腾侧镜像库（9 月 30 日宣布，10 月持续发酵）。DeepGEMM-Ascend 需要 **Ascend 950 + CANN 9.20**，DeepEP-Ascend 需要 UBMEM 互联，DeepSelect 昇腾构建只有 BF16。**「一套代码跑遍所有芯片」方向确定，但可用性仍局限在少数新硬件上——别把叙事当现状。**",
-      "line": 386
+      "line": 360
     },
     {
       "name": "openJiuwen X-Router",
@@ -3752,7 +3752,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "自演进模型路由（openJiuwen 生态组件）——昇腾亲和设计，按任务动态选择模型，宣称可降低 **50% Token 消耗**。国产算力上的「路由层」卡位之作。",
-      "line": 387
+      "line": 361
     },
     {
       "name": "DeepInfer",
@@ -3768,7 +3768,7 @@
       "category_index": 6,
       "tier": null,
       "desc": "🆕 **10-31 开源**。单集群日处理约 **155 万亿 Token**，主打毫秒级推理优化。对照 79%—81% 的企业 GPU 长期半闲置，它把「利用率」本身做成了卖点。",
-      "line": 388
+      "line": 362
     },
     {
       "name": "Unsloth",
@@ -3784,7 +3784,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "LLM微调加速引擎，2x加速训练且减少70%显存占用。支持LoRA/QLoRA等主流微调方法。**9月初增长至75.7k**。",
-      "line": 398
+      "line": 372
     },
     {
       "name": "LLaMA Factory",
@@ -3800,7 +3800,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "一站式LLM微调平台，支持100+模型的预训练/微调/评估。",
-      "line": 399
+      "line": 373
     },
     {
       "name": "DeepSpeed",
@@ -3816,7 +3816,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "微软出品的大规模深度学习优化库。ZeRO技术突破显存限制。",
-      "line": 400
+      "line": 374
     },
     {
       "name": "Stanford Alpaca",
@@ -3832,7 +3832,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "斯坦福出品的指令微调先驱。",
-      "line": 401
+      "line": 375
     },
     {
       "name": "PEFT",
@@ -3848,7 +3848,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "HuggingFace出品的参数高效微调库。",
-      "line": 402
+      "line": 376
     },
     {
       "name": "TRL",
@@ -3864,7 +3864,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "HuggingFace出品的Transformer强化学习库。支持RLHF/DPO/GRPO等对齐方法。",
-      "line": 403
+      "line": 377
     },
     {
       "name": "Megatron-LM",
@@ -3880,7 +3880,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "NVIDIA出品的大规模语言模型训练框架。",
-      "line": 404
+      "line": 378
     },
     {
       "name": "ms-swift",
@@ -3896,7 +3896,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "阿里魔搭ModelScope官方微调框架。",
-      "line": 405
+      "line": 379
     },
     {
       "name": "Axolotl",
@@ -3912,7 +3912,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "易用的LLM微调框架，YAML配置文件驱动。",
-      "line": 406
+      "line": 380
     },
     {
       "name": "OpenRLHF",
@@ -3928,7 +3928,7 @@
       "category_index": 7,
       "tier": null,
       "desc": "DeepSeek-R1时代最重要的开源GRPO/PPO框架。",
-      "line": 407
+      "line": 381
     },
     {
       "name": "SD WebUI",
@@ -3944,7 +3944,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "Stable Diffusion的图形界面，AI图像生成的标准工具。",
-      "line": 413
+      "line": 387
     },
     {
       "name": "ComfyUI",
@@ -3960,7 +3960,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "节点式AI图像工作流引擎，可视化的方式构建复杂的图像生成Pipeline。",
-      "line": 414
+      "line": 388
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -3976,7 +3976,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 AI 短视频全自动生成利器（10月初达11.7万星，周榜飙星前列）。输入主题自动生成文案、素材、配音、字幕、BGM并合成成片，是\"AI内容农场\"争议与自动化创作需求交织下的现象级项目。",
-      "line": 415
+      "line": 389
     },
     {
       "name": "OpenCut",
@@ -3992,7 +3992,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 **开源版CapCut（剪映），10月初突破9.2万星**（9月初81.9k，月增1万+）。Rust渲染内核+TypeScript/Next.js前端，桌面/移动/浏览器三端支持。内置MCP server供AI Agent集成，headless模式支持批量渲染，插件优先架构。MIT许可，隐私保护。",
-      "line": 416
+      "line": 390
     },
     {
       "name": "OpenMontage",
@@ -4008,7 +4008,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 **全球首个开源Agent视频制作系统**，**10月初达6.4万星**（9月初46.3k）。12条生产流水线、100+专业工具、700+ Agent技能。从调研→脚本→素材→剪辑→合成→配音全流程自动化，技能模块化设计可自由组合。",
-      "line": 417
+      "line": 391
     },
     {
       "name": "deepfakes/faceswap",
@@ -4024,7 +4024,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "Deepfake换脸开源项目。",
-      "line": 418
+      "line": 392
     },
     {
       "name": "Fooocus",
@@ -4040,7 +4040,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "专注\"输入Prompt即出图\"的极简体验。",
-      "line": 419
+      "line": 393
     },
     {
       "name": "Hyperframes",
@@ -4056,7 +4056,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 HeyGen出品。\"写HTML，渲染视频\"——用HTML和CSS写动画，可包含Three.js 3D场景，渲染成确定性MP4。面向Agent构建，适合产品Demo和解释型视频。",
-      "line": 420
+      "line": 394
     },
     {
       "name": "Real-ESRGAN",
@@ -4072,7 +4072,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "图像超分辨率修复经典工具。",
-      "line": 421
+      "line": 395
     },
     {
       "name": "Diffusers",
@@ -4088,7 +4088,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "HuggingFace出品的扩散模型库。",
-      "line": 422
+      "line": 396
     },
     {
       "name": "ControlNet",
@@ -4104,7 +4104,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "SD可控生成革命性插件。",
-      "line": 423
+      "line": 397
     },
     {
       "name": "Open-Sora",
@@ -4120,7 +4120,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "开源版Sora视频生成。",
-      "line": 424
+      "line": 398
     },
     {
       "name": "InvokeAI",
@@ -4136,7 +4136,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "专业级SD创作工具。",
-      "line": 425
+      "line": 399
     },
     {
       "name": "Stable Diffusion",
@@ -4152,7 +4152,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "扩散模型开源化的里程碑项目。",
-      "line": 426
+      "line": 400
     },
     {
       "name": "design.md",
@@ -4168,7 +4168,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 Google Labs出品的设计规范格式。将YAML设计Token与Markdown说明合并为统一spec文件，AI Agent可读取、验证、对比设计规范并据此生成一致的UI，解决AI生成前端代码的视觉一致性问题。",
-      "line": 427
+      "line": 401
     },
     {
       "name": "awesome-gpt-image-2",
@@ -4184,7 +4184,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 GPT-Image-2 生态合集（Prompt、案例、工作流）。OpenAI 凭 GPT-Image-2 重夺图像生成王座后，社区侧最热的配套资源仓库。",
-      "line": 428
+      "line": 402
     },
     {
       "name": "Wan2.1",
@@ -4200,7 +4200,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "阿里万相视频生成模型。🆕 **7月持续迭代**：Wan2.1-FLF2V-14B（首尾帧到视频）、Wan2.7（4K、20秒片段、14B架构）。",
-      "line": 429
+      "line": 403
     },
     {
       "name": "CogVideo",
@@ -4216,7 +4216,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "清华THUDM出品的视频生成模型。",
-      "line": 430
+      "line": 404
     },
     {
       "name": "HunyuanVideo",
@@ -4232,7 +4232,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "腾讯混元开源的视频生成模型。",
-      "line": 431
+      "line": 405
     },
     {
       "name": "AnimateDiff",
@@ -4248,7 +4248,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "将静态图像模型转化为视频生成器的创新方案。",
-      "line": 432
+      "line": 406
     },
     {
       "name": "InstantID",
@@ -4264,7 +4264,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "零样本身份保持图像生成。",
-      "line": 433
+      "line": 407
     },
     {
       "name": "PhotoMaker",
@@ -4280,7 +4280,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "腾讯ARC出品，个性化图像生成。",
-      "line": 434
+      "line": 408
     },
     {
       "name": "LongCat-Video",
@@ -4296,7 +4296,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 **2026年10月初热榜**。LongCat 系视频生成模型开源项目，国产视频生成新力量，与 Wan/HunyuanVideo/CogVideo 同场竞技。",
-      "line": 435
+      "line": 409
     },
     {
       "name": "FLUX.2",
@@ -4312,7 +4312,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 Black Forest Labs新一代文生图模型。**FLUX.2 [dev]（2025年11月）**320亿参数文生图+图像编辑，Apache 2.0。**FLUX.2 [klein]（2026年1月）**40亿参数，消费级硬件1024×1024生成不到0.5秒。",
-      "line": 436
+      "line": 410
     },
     {
       "name": "open-higgsfield",
@@ -4328,7 +4328,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 **2026年8月26日开源**。图像和视频生成工作室——一条Prompt栏，每个模型独立设置，所有成品统一画廊管理。将分散的生成模型统一到一个工作台界面。",
-      "line": 437
+      "line": 411
     },
     {
       "name": "Concat",
@@ -4344,7 +4344,7 @@
       "category_index": 8,
       "tier": null,
       "desc": "🆕 **2026年8月25日开源**，AGPL-3.0。又一个开源CapCut替代，Rust渲染内核。与OpenCut形成开源视频编辑双雄格局。",
-      "line": 438
+      "line": 412
     },
     {
       "name": "Whisper",
@@ -4360,7 +4360,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "OpenAI出品的语音识别标杆模型，支持99种语言。",
-      "line": 444
+      "line": 418
     },
     {
       "name": "VoiceStudio",
@@ -4376,7 +4376,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "🆕 **2026年10月初热榜（9月3日仅1.47万→一个月内近5倍蹿升）**。本地优先语音创作平台——TTS/ASR/语音克隆一体，全部在自己的机器上跑。与Voicebox正面竞争\"开源语音工作室\"定位，是10月语音赛道最大黑马。",
-      "line": 445
+      "line": 419
     },
     {
       "name": "GPT-SoVITS",
@@ -4392,7 +4392,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "少样本语音克隆与合成。",
-      "line": 446
+      "line": 420
     },
     {
       "name": "Voicebox",
@@ -4408,7 +4408,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "🆕 开源AI语音工作室。\"Clone, dictate, create\"——包含语音克隆、转录、音频编辑、本地模型等能力，在自己的机器上运行。适合产品Demo配音、播客制作和Agent语音输出。",
-      "line": 447
+      "line": 421
     },
     {
       "name": "TTS (Coqui)",
@@ -4424,7 +4424,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "深度学习语音合成全能库。",
-      "line": 448
+      "line": 422
     },
     {
       "name": "ChatTTS",
@@ -4440,7 +4440,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "专为对话场景优化的TTS模型。",
-      "line": 449
+      "line": 423
     },
     {
       "name": "Bark",
@@ -4456,7 +4456,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "Suno AI出品的多语种TTS。",
-      "line": 450
+      "line": 424
     },
     {
       "name": "OpenVoice",
@@ -4472,7 +4472,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "MyShell出品的即时声音克隆技术。",
-      "line": 451
+      "line": 425
     },
     {
       "name": "MockingBird",
@@ -4488,7 +4488,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "5秒克隆声音的语音合成工具。",
-      "line": 452
+      "line": 426
     },
     {
       "name": "Fish Speech",
@@ -4504,7 +4504,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "多语种零样本TTS。",
-      "line": 453
+      "line": 427
     },
     {
       "name": "CosyVoice",
@@ -4520,7 +4520,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "阿里通义实验室出品的语音合成模型。",
-      "line": 454
+      "line": 428
     },
     {
       "name": "F5-TTS",
@@ -4536,7 +4536,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "基于Flow Matching的零样本TTS。",
-      "line": 455
+      "line": 429
     },
     {
       "name": "Spark-TTS",
@@ -4552,7 +4552,7 @@
       "category_index": 9,
       "tier": null,
       "desc": "新兴高质量TTS模型。",
-      "line": 456
+      "line": 430
     },
     {
       "name": "OpenCV",
@@ -4568,7 +4568,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "计算机视觉标准库，2500+算法覆盖全场景。",
-      "line": 462
+      "line": 436
     },
     {
       "name": "Ultralytics",
@@ -4584,7 +4584,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "YOLO系列统一框架。",
-      "line": 463
+      "line": 437
     },
     {
       "name": "Segment Anything",
@@ -4600,7 +4600,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "Meta出品的\"分割一切\"模型。",
-      "line": 464
+      "line": 438
     },
     {
       "name": "SAM 2",
@@ -4616,7 +4616,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "Meta SAM二代，从图像分割扩展到视频分割。",
-      "line": 465
+      "line": 439
     },
     {
       "name": "GroundingDINO",
@@ -4632,7 +4632,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "开放词汇目标检测。",
-      "line": 466
+      "line": 440
     },
     {
       "name": "Unlimited-OCR",
@@ -4648,7 +4648,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "🆕 百度出品的开源权重视觉语言模型，专为OCR场景优化。支持PDF高亮——不仅能识别文字，还能标注文字在页面上的位置。可在单张消费级GPU上运行，MIT许可。",
-      "line": 467
+      "line": 441
     },
     {
       "name": "Mistral OCR 4",
@@ -4664,7 +4664,7 @@
       "category_index": 10,
       "tier": null,
       "desc": "🆕 Mistral AI出品（2026年6月23日），支持170语言的文档模型。返回带边界框、块类型和逐词置信度的结构化页面，是OCR领域的强劲新选手。",
-      "line": 468
+      "line": 442
     },
     {
       "name": "Milvus",
@@ -4680,7 +4680,7 @@
       "category_index": 11,
       "tier": null,
       "desc": "云原生向量数据库，支持万亿级向量的分布式存储和检索。",
-      "line": 474
+      "line": 448
     },
     {
       "name": "Qdrant",
@@ -4696,7 +4696,7 @@
       "category_index": 11,
       "tier": null,
       "desc": "Rust编写的高性能向量搜索引擎。",
-      "line": 475
+      "line": 449
     },
     {
       "name": "Chroma",
@@ -4712,7 +4712,7 @@
       "category_index": 11,
       "tier": null,
       "desc": "AI搜索基础设施，为LLM应用提供轻量级向量存储。",
-      "line": 476
+      "line": 450
     },
     {
       "name": "pgvector",
@@ -4728,7 +4728,7 @@
       "category_index": 11,
       "tier": null,
       "desc": "PostgreSQL的向量搜索扩展。",
-      "line": 477
+      "line": 451
     },
     {
       "name": "Weaviate",
@@ -4744,7 +4744,7 @@
       "category_index": 11,
       "tier": null,
       "desc": "混合向量/对象数据库。",
-      "line": 478
+      "line": 452
     },
     {
       "name": "LanceDB",
@@ -4760,7 +4760,7 @@
       "category_index": 11,
       "tier": null,
       "desc": "嵌入式向量数据库，无需服务器直接嵌入应用。",
-      "line": 479
+      "line": 453
     },
     {
       "name": "Jina",
@@ -4776,7 +4776,7 @@
       "category_index": 12,
       "tier": null,
       "desc": "多模态AI云原生服务框架。",
-      "line": 485
+      "line": 459
     },
     {
       "name": "FlagEmbedding",
@@ -4792,7 +4792,7 @@
       "category_index": 12,
       "tier": null,
       "desc": "智源研究院出品的嵌入模型和检索框架。",
-      "line": 486
+      "line": 460
     },
     {
       "name": "WeMM-Embedding",
@@ -4808,7 +4808,7 @@
       "category_index": 12,
       "tier": null,
       "desc": "🆕 **2026年8月25日开源**。腾讯微信视觉团队出品的通用多模态嵌入模型族，支持多模态理解和检索。填补了国产多模态嵌入模型的开源空白。",
-      "line": 487
+      "line": 461
     },
     {
       "name": "awesome-mcp-servers",
@@ -4824,7 +4824,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 MCP服务器合集，冲进GitHub总榜前300。收录数千个MCP Server实现，是MCP生态的入口级项目。",
-      "line": 495
+      "line": 469
     },
     {
       "name": "Agent-Reach",
@@ -4840,7 +4840,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "\"让AI Agent看见整个互联网，零API费用\"。一键赋予任何AI Agent读取15+主流平台公开内容的能力（Twitter/X、Reddit、B站、小红书、GitHub、YouTube等）。每平台一个Python模块，内置多后端自动路由。**10月初已达9.19万星**，稳居热榜前十。",
-      "line": 496
+      "line": 470
     },
     {
       "name": "MCP Servers",
@@ -4856,7 +4856,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "MCP协议参考实现集合，包含文件系统、数据库、API等数十种标准MCP Server。",
-      "line": 497
+      "line": 471
     },
     {
       "name": "chrome-devtools-mcp",
@@ -4872,7 +4872,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 Chrome开发者工具MCP Server，让AI Agent直接操控Chrome DevTools进行网页调试和自动化。**10月初突破5万星**。",
-      "line": 498
+      "line": 472
     },
     {
       "name": "playwright-mcp",
@@ -4888,7 +4888,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 微软出品的浏览器自动化MCP Server，基于Playwright实现Agent驱动的浏览器操作。",
-      "line": 499
+      "line": 473
     },
     {
       "name": "github-mcp-server",
@@ -4904,7 +4904,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 GitHub官方MCP Server，让AI Agent直接操作GitHub仓库、Issues、PR和工作流。",
-      "line": 500
+      "line": 474
     },
     {
       "name": "code-review-graph",
@@ -4920,7 +4920,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 将代码库解析为知识图谱的MCP工具。用Tree-sitter构建AST，以节点（函数/类/导入）和边（调用/继承/测试覆盖）存储为图，审查时查询计算AI助手所需的最小文件集。解决AI编码助手每次重读整个代码库导致的Token浪费问题，专为Claude Code/Cursor等AI编码助手设计。",
-      "line": 501
+      "line": 475
     },
     {
       "name": "fastmcp",
@@ -4936,7 +4936,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 PrefectHQ出品的Pythonic MCP服务端/客户端快速构建框架。让用Python构建MCP Server像写FastAPI一样简单。",
-      "line": 502
+      "line": 476
     },
     {
       "name": "A2A",
@@ -4952,7 +4952,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "Google提出的Agent-to-Agent通信协议。已有150+组织参与，**2026年6月捐赠给Linux基金会**，与MCP形成AI协议双雄格局。",
-      "line": 503
+      "line": 477
     },
     {
       "name": "MCP Python SDK",
@@ -4968,7 +4968,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "Anthropic提出的Model Context Protocol Python实现。",
-      "line": 504
+      "line": 478
     },
     {
       "name": "MCP TypeScript SDK",
@@ -4984,7 +4984,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "MCP协议的TypeScript/JavaScript实现。",
-      "line": 505
+      "line": 479
     },
     {
       "name": "wigolo",
@@ -5000,7 +5000,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 **本地优先的AI Agent网络智能层**MCP服务器。搜索、抓取、爬取、提取、缓存、找相似、研究、自主收集，全程零API Key、零云依赖、零按次计费。18个搜索引擎适配器+ML重排序+设备端嵌入模型，所有数据存于 `~/.wigolo/`。支持Claude Code/Cursor/Codex/Gemini CLI等，7月GitHub Trending持续升温。AGPL-3.0。",
-      "line": 506
+      "line": 480
     },
     {
       "name": "claude-plugins-community",
@@ -5016,7 +5016,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 **2026年9月开源（Anthropic官方）**。Claude 社区插件镜像/分发仓库——官方下场做插件生态治理，与 DSH\"万物皆插件\"形成正面呼应，插件分发标准之争开启。",
-      "line": 507
+      "line": 481
     },
     {
       "name": "commerce-agents",
@@ -5032,7 +5032,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 **2026年9月1日开源**，Apache 2.0。**Anthropic官方商业Agent参考蓝图**——覆盖零售、电商、电信、娱乐场景的购物和商户Agent示例。标志着Agent从\"开发者工具\"走向\"商业化落地\"，由模型厂商亲自下场提供生产级参考实现。",
-      "line": 508
+      "line": 482
     },
     {
       "name": "x64dbg-mcp-server",
@@ -5048,7 +5048,7 @@
       "category_index": 13,
       "tier": null,
       "desc": "🆕 **2026年8月22日开源**，MIT许可。**MCP渗透到逆向工程领域**——Zig编写，零依赖单二进制，为x64dbg调试器暴露完整MCP接口。AI Agent可设断点、单步执行、读内存、dump寄存器，将MCP从\"Web工具\"扩展到\"二进制安全\"。",
-      "line": 509
+      "line": 483
     },
     {
       "name": "Open WebUI",
@@ -5064,7 +5064,7 @@
       "category_index": 14,
       "tier": null,
       "desc": "🆕 **9月初已增长至151k**。Ollama最佳搭档，功能最全的开源AI聊天界面。支持多模型对话、知识库、插件和工作流。GitHub AI排行榜第10名。",
-      "line": 515
+      "line": 489
     },
     {
       "name": "NextChat",
@@ -5080,7 +5080,7 @@
       "category_index": 14,
       "tier": null,
       "desc": "一键部署的ChatGPT Web界面。",
-      "line": 516
+      "line": 490
     },
     {
       "name": "LobeChat",
@@ -5096,7 +5096,7 @@
       "category_index": 14,
       "tier": null,
       "desc": "现代化多模型聊天平台。🆕 中国团队开发，支持30+语言，设计最佳的开源Chat UI，AGPL-3.0许可。",
-      "line": 517
+      "line": 491
     },
     {
       "name": "LibreChat",
@@ -5112,7 +5112,7 @@
       "category_index": 14,
       "tier": null,
       "desc": "多模型ChatGPT克隆。",
-      "line": 518
+      "line": 492
     },
     {
       "name": "ChatBox",
@@ -5128,7 +5128,7 @@
       "category_index": 14,
       "tier": null,
       "desc": "轻量级AI桌面客户端。",
-      "line": 519
+      "line": 493
     },
     {
       "name": "n8n",
@@ -5144,7 +5144,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "🆕 **9月初已增长至203k+**。n8n 2.0（2026年1月）默认启用任务运行器，AI Agent节点支持OpenAI/Anthropic/Ollama等，新增Chat Hub把工作流秒变GPTs，AI Assistant可自动规划/构建/测试工作流。30天96次发布事件。",
-      "line": 525
+      "line": 499
     },
     {
       "name": "Dify",
@@ -5160,7 +5160,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "生产级AI应用开发平台。超过100万部署应用、18万开发者；RAG+工作流+API+监控一体化。**9月初增长至154k+**。",
-      "line": 526
+      "line": 500
     },
     {
       "name": "Langflow",
@@ -5176,7 +5176,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "🆕 **8月初突破102k星**。可视化LangChain，完整组件访问，可导出Python代码，LangSmith集成。",
-      "line": 527
+      "line": 501
     },
     {
       "name": "Flowise",
@@ -5192,7 +5192,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "拖拽式LLM流程构建工具。🆕 2025年被Workday收购，轻量单容器部署，100+ LLM集成。",
-      "line": 528
+      "line": 502
     },
     {
       "name": "Apache Airflow",
@@ -5208,7 +5208,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "工作流编排的行业标准，Apache基金会顶级项目。",
-      "line": 529
+      "line": 503
     },
     {
       "name": "Activepieces",
@@ -5224,7 +5224,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "AI原生工作流自动化平台。",
-      "line": 530
+      "line": 504
     },
     {
       "name": "Prefect",
@@ -5240,7 +5240,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "现代Python工作流引擎。",
-      "line": 531
+      "line": 505
     },
     {
       "name": "Windmill",
@@ -5256,7 +5256,7 @@
       "category_index": 15,
       "tier": null,
       "desc": "脚本转工作流平台。",
-      "line": 532
+      "line": 506
     },
     {
       "name": "LangFuse",
@@ -5272,7 +5272,7 @@
       "category_index": 16,
       "tier": null,
       "desc": "开源LLM可观测性平台。",
-      "line": 538
+      "line": 512
     },
     {
       "name": "MLflow",
@@ -5288,7 +5288,7 @@
       "category_index": 16,
       "tier": null,
       "desc": "AI工程全生命周期管理平台。",
-      "line": 539
+      "line": 513
     },
     {
       "name": "DeepEval",
@@ -5304,7 +5304,7 @@
       "category_index": 16,
       "tier": null,
       "desc": "LLM测试评估框架。",
-      "line": 540
+      "line": 514
     },
     {
       "name": "RAGAS",
@@ -5320,7 +5320,7 @@
       "category_index": 16,
       "tier": null,
       "desc": "RAG系统专项评估框架。",
-      "line": 541
+      "line": 515
     },
     {
       "name": "Phoenix",
@@ -5336,7 +5336,7 @@
       "category_index": 16,
       "tier": null,
       "desc": "Arize AI出品的AI可观测性平台。",
-      "line": 542
+      "line": 516
     },
     {
       "name": "strix",
@@ -5352,7 +5352,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "开源 AI 渗透测试工具，自动发现并修复 Web 应用漏洞。扫描 OWASP Top 10（SQL 注入、XSS、CSRF 等）并给出修复建议。月增 1.8 万星，在 AI 代码生成浪潮中为安全装上「刹车」。",
-      "line": 560
+      "line": 534
     },
     {
       "name": "system_prompts_leaks",
@@ -5368,7 +5368,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "各大 AI 系统提示词泄露合集（Anthropic / OpenAI / Google / xAI）。从 Claude、ChatGPT、Gemini、Grok 等逆向出的系统级 Prompt，帮助开发者写出更好的应用层 Prompt——**也是理解「厂商怎么防注入」的第一手材料**。",
-      "line": 561
+      "line": 535
     },
     {
       "name": "iFixAi",
@@ -5384,7 +5384,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "🆕 **120 秒给 Agent 打分 A—F**。设计上有个巧思：故意要求配置**两家不同厂商的 API Key 做交叉审计**，避免 Agent 自评。8 天 +5.8k，是 10 月增速最快的安全项目之一。",
-      "line": 562
+      "line": 536
     },
     {
       "name": "Cybersecurity Skills",
@@ -5400,7 +5400,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "817 个结构化网络安全 Skills，映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 等六大框架。配合 Claude Code / Codex / Cursor / Gemini CLI 等 20+ 平台使用。",
-      "line": 563
+      "line": 537
     },
     {
       "name": "SkillSpector",
@@ -5416,7 +5416,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "**AI Agent Skills 安全扫描器**。检测 16 个类别、65 种漏洞模式，包括 Prompt Injection、数据外泄、权限提升、供应链风险。规则：任何第三方 skill 安装前先跑一遍。Apache 2.0。",
-      "line": 564
+      "line": 538
     },
     {
       "name": "NVIDIA OpenShell",
@@ -5432,7 +5432,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "🆕 **Open Agent Safety Platform 的核心件**，100+ 签署方。Rust 沙箱，把 Agent 的每一次执行装进可审计的隔离环境。",
-      "line": 565
+      "line": 539
     },
     {
       "name": "jailbreaks",
@@ -5448,7 +5448,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "🆕 收集 31 组针对 25+ 模型的系统提示、角色定义与政策规范，用于研究提示层级与模型对注入的抵抗力。**红队资料的「公开教科书」**，也是理解厂商防御边界的入口。",
-      "line": 566
+      "line": 540
     },
     {
       "name": "agent-firewall",
@@ -5464,7 +5464,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "**AI Agent 运行时防火墙**。在 Agent 与工具 / MCP 之间架一道实时拦截层，基于策略引擎阻断越权工具调用、敏感数据外泄（如把密钥写入公开 Gist）和危险命令。Rust 实现、低延迟、可热更新规则。相比 SkillSpector 的「事前扫描」，它做「事中拦截」。",
-      "line": 567
+      "line": 541
     },
     {
       "name": "destructive_command_guard",
@@ -5480,7 +5480,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "拦截 AI Agent 可能执行的毁灭性命令：`rm -rf /`、`git push --force` 到 main、`DROP TABLE`、`chmod -R 777`、Fork 炸弹等。Rust 实现，小而美。",
-      "line": 568
+      "line": 542
     },
     {
       "name": "ARTEX",
@@ -5496,7 +5496,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "🆕 **10-15 日榜项目**。Go 后端 + Next.js 前端的 **AI 自主渗透测试系统**：资产同步、任务管理、LLM 集成、Agent 调度与审批流程，获百度「agent+」攻防挑战赛冠军。同日还出现一个近乎同名的复刻版 ARTEXX（1,202⭐）——**自主渗透的门槛已经低到一个周末就能复刻**。",
-      "line": 569
+      "line": 543
     },
     {
       "name": "stop-that-shit",
@@ -5512,7 +5512,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "面向 Codex / GPT 场景的多平台 Hook + Skill Guard，拦截编码 Agent 的「无需求哈希/校验和生成」和任务范围膨胀。从「安全拦截」扩展到「**行为质量拦截**」——不仅防危险操作，更防无意义操作。",
-      "line": 570
+      "line": 544
     },
     {
       "name": "oss-scanner",
@@ -5528,7 +5528,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "🆕 **10-15 日榜，厂商亲自下场做审计**。在隔离 VM 中构建并分析开源项目，自动生成漏洞报告与修复建议。面向开源维护者与安全团队——把「供应链安全」做成可一键跑的流水线。",
-      "line": 571
+      "line": 545
     },
     {
       "name": "reverify",
@@ -5544,7 +5544,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "AI 幻觉防护层——AI 提出声明，确定性工具裁决，每条声明对照 ground truth 验证并附带证据。MCP Server + CLI 形态，补齐「Agent 可能说谎」的最后一环。",
-      "line": 572
+      "line": 546
     },
     {
       "name": "agent-safe-pipeline",
@@ -5560,7 +5560,7 @@
       "category_index": 17,
       "tier": null,
       "desc": "**参考架构级** Agent 安全方案：Agent 提议动作但不可授权——不可变意图捕获、独立策略裁决（ALLOW / ESCALATE / BLOCK）、人工审批、单次意图绑定令牌的 SafeExecutor。从架构层面保证 Agent 永远不可越权，是「零信任 Agent」的落地。",
-      "line": 573
+      "line": 547
     },
     {
       "name": "TradingAgents",
@@ -5576,7 +5576,7 @@
       "category_index": 18,
       "tier": null,
       "desc": "🆕 多Agent LLM金融交易框架，模拟真实交易公司运作。分析师团队（基本面/情绪/新闻/技术分析）→研究员团队（多空辩论）→交易员Agent→风控与组合经理，Agent间动态讨论确定最优策略。基于LangGraph构建，支持10+LLM提供商，覆盖美股/A股/港股/加密货币等多市场。**v0.3.1（7月5日）**，决策日志持久化+断点续跑，Apache 2.0，AAAI 2025论文。**9月初突破10万⭐**。",
-      "line": 591
+      "line": 565
     },
     {
       "name": "ai-hedge-fund",
@@ -5592,7 +5592,7 @@
       "category_index": 18,
       "tier": null,
       "desc": "🆕 模拟完整AI对冲基金团队，13个Agent分别扮演巴菲特（价值投资）、芒格（逆向思维）、木头姐（成长投资）、索罗斯（宏观对冲）等\"基金经理\"。每个分析师Agent独立出信号→风控Agent审核→组合经理配置。教育/研究属性大于实战，872次提交维护活跃。",
-      "line": 592
+      "line": 566
     },
     {
       "name": "Kronos",
@@ -5608,7 +5608,7 @@
       "category_index": 18,
       "tier": null,
       "desc": "🆕 **2026年10月初热榜，达4万星**。\"金融市场语言基础模型\"（Financial Foundation Model）——把K线/量价数据当作一种语言进行预训练的时序基础模型，开源量化从\"用LLM做交易\"升级到\"为市场训练专用基础模型\"。",
-      "line": 593
+      "line": 567
     },
     {
       "name": "financial-services",
@@ -5624,7 +5624,7 @@
       "category_index": 18,
       "tier": null,
       "desc": "🆕 **2026年9月月榜项目**。金融服务工作流的**参考Agent与数据连接器合集**——与Anthropic commerce-agents同一思路（厂商/机构下场给行业级蓝图），把合规、研报、风控等金融工作流做成可直接复用的Agent模板。",
-      "line": 594
+      "line": 568
     },
     {
       "name": "Vibe-Trading",
@@ -5640,7 +5640,7 @@
       "category_index": 18,
       "tier": null,
       "desc": "🆕 港大数据科学实验室出品，\"用聊天的方式做量化\"。自然语言描述交易想法→Agent自动完成Route（识别市场）→Ground（拉取数据）→Test（编写策略+回测）→Deliver（输出报告含K线图、热力图、风险指标）。多Agent协作+MCP协议，支持真实券商连接，MIT协议。",
-      "line": 595
+      "line": 569
     },
     {
       "name": "orca",
@@ -5656,7 +5656,7 @@
       "category_index": 19,
       "tier": null,
       "desc": "🆕 **管理并行编码Agent集群的桌面/移动端工具**。当团队有5个Claude Code、3个Codex、2个Cursor同时在跑时，orca提供统一Agent编排界面，支持Worktree隔离、并行任务对比、跨Agent结果合并。桌面+移动+VPS三种部署。",
-      "line": 601
+      "line": 575
     },
     {
       "name": "ai-job-search",
@@ -5672,7 +5672,7 @@
       "category_index": 19,
       "tier": null,
       "desc": "🆕 AI求职框架：评估岗位、定制简历、写求职信、准备面试，全跑在本地。基于Claude Code构建，完全本地运行，MIT协议。单周+13k星。",
-      "line": 602
+      "line": 576
     },
     {
       "name": "meetily",
@@ -5688,7 +5688,7 @@
       "category_index": 19,
       "tier": null,
       "desc": "🆕 100%本地AI会议助手，4x Whisper转录，无需云端。隐私优先，所有会议数据在本地处理。",
-      "line": 603
+      "line": 577
     },
     {
       "name": "OfficeCLI",
@@ -5704,7 +5704,7 @@
       "category_index": 19,
       "tier": null,
       "desc": "🆕 **首个面向AI Agent的Office套件**，无需安装Office。把Word/Excel/PowerPoint操作封装为CLI命令，AI Agent可直接读写.docx/.xlsx/.pptx文件。支持数据读取、图表生成、PPT模板填充，是Agent+办公自动化的关键拼图。",
-      "line": 604
+      "line": 578
     },
     {
       "name": "headcount",
@@ -5720,7 +5720,7 @@
       "category_index": 19,
       "tier": null,
       "desc": "🆕 **2026年8月28日开源**，MIT许可。将Claude Code组织成一家\"公司\"——15+部门、125+技能，每个技能独立安装。CEO/工程/QA/设计等Agent角色分工明确，是Agent Skills\"组织化\"趋势的代表项目。",
-      "line": 605
+      "line": 579
     },
     {
       "name": "DeepSeek-V3/V4",
@@ -5736,7 +5736,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "国产最强开源 LLM。V4-Pro 1.6T 参数对标顶级闭源模型；V4-Flash 284B/13B MoE，MIT 许可，百万上下文，价格最低（$0.14/$0.28）。",
-      "line": 617
+      "line": 591
     },
     {
       "name": "DeepSeek-R1/R3",
@@ -5752,7 +5752,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "R3 于 7 月 5 日发布，AIME 2025 达 95%，**开源模型数学推理最强**。1M 上下文，MIT 许可。",
-      "line": 618
+      "line": 592
     },
     {
       "name": "Llama 5",
@@ -5768,7 +5768,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "7 月 6 日发布，MMLU 91%，**开源模型学术知识最强**。256K 上下文，原生多模态。Llama 5 License。**Meta 已转向「部分闭源 + 选择性开放」策略**，Llama 5 是最后一个「全家桶式」开源。",
-      "line": 619
+      "line": 593
     },
     {
       "name": "Qwen 3.8-Max",
@@ -5784,7 +5784,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "8 月 4 日开源。2.4 万亿参数 MoE，SWE-Verified 83%，原生 1M 上下文，Apache 2.0。与 Qwen 4.1 形成「双旗舰」格局。",
-      "line": 620
+      "line": 594
     },
     {
       "name": "Qwen3 / Qwen 4.1",
@@ -5800,7 +5800,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "Qwen 4.1 于 7 月 2 日发布，SWE-Verified 80%，Mac 可运行模型新冠军。1M 原生上下文，Apache 2.0。",
-      "line": 621
+      "line": 595
     },
     {
       "name": "Kimi K2 / K3",
@@ -5816,7 +5816,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "K3 于 7 月 16 日发 API，权重于 7 月 27 日如期开源。2.8 万亿参数，**史上最大开源权重模型**，开源两周冲上 42k⭐ 登顶 GitHub Trending。2M 上下文，SWE-Bench Pro 66%。MIT 许可。",
-      "line": 622
+      "line": 596
     },
     {
       "name": "Mistral",
@@ -5832,7 +5832,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "Mistral Medium 4 于 7 月 4 日发布，SWE-Verified 70%，32GB Mac 上 ~48 tok/s，速度/编码质量比最优。Apache 2.0。**Mistral Large 4（1.05 万亿参数「Le Chonk」）10-06 发布时只有 API，10-29 才正式放出权重**——两周的「承诺与交付」时间差，本身就是 10 月的行业议题。",
-      "line": 623
+      "line": 597
     },
     {
       "name": "Yi",
@@ -5848,7 +5848,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "李开复创办的零一万物出品，中英文双语大模型。",
-      "line": 624
+      "line": 598
     },
     {
       "name": "InternLM",
@@ -5864,7 +5864,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "书生系列大模型，学术界影响力最高的开源 LLM 之一。",
-      "line": 625
+      "line": 599
     },
     {
       "name": "GLM-5.2",
@@ -5880,7 +5880,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "7 月最重要开源事件：SWE-Bench Pro 68.5%，**首个在 agentic coding 上击败 GPT-5 和 Claude 的开源模型**。1M 原生上下文，IndexShare 架构使每 token FLOPs 降低 2.9×。另有 GLM-5.2 Air（106B-A12B，Mac ~30 tok/s）。MIT 许可。",
-      "line": 626
+      "line": 600
     },
     {
       "name": "Gemma 4.5",
@@ -5896,7 +5896,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "Gemma 4.5 于 7 月 3 日发布，1M 原生上下文，MMLU 86%，M5 Max 上 ~42 tok/s。",
-      "line": 627
+      "line": 601
     },
     {
       "name": "DeepSeek-V4.1-Flash-1017",
@@ -5912,7 +5912,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 **本轮最重要的模型发布**。命名即快照日期（10 月 17 日）。核心卖点是**「性能—费用帕累托改进」**：各项基准整齐抬头的同时，任务运行时间与输出长度被一起压下来。针对 **DeepSeek Harness 专项优化**（需 DSH ≥ 0.2.1-rc.1），腾讯 CodeBuddy / WorkBuddy 同步受益。新能力「**许愿式编程**」——一句话直出可交互 3D 场景（官方 Demo 是「Vibe 修故宫」、Godot 版《传送门 2》），底层是**基于自反馈的强化学习**：写完第一版先自查，发现不对回头修。同步开放自研 **Search / Fetch API**（每千次成功请求 5 元，失败/无结果/超时不计费，**11 月 1 日前免费**）。",
-      "line": 628
+      "line": 602
     },
     {
       "name": "Muse Spark Open",
@@ -5928,7 +5928,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 **美版顶级开放权重模型**，可在**两台互联的 Mac 桌面**上本地运行——「旗舰级开放权重能在消费硬件跑」第一次成为官方宣传点。同批发布的 Muse Wonder 在 3D 建模上出现短板，引发内部辩护，说明「多模态开放权重」仍在爬坡。",
-      "line": 629
+      "line": 603
     },
     {
       "name": "GLM-5.3",
@@ -5944,7 +5944,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "8 月 17—18 日发布，GLM-5.2 的增强后续，与 Qwen3.8-Max 并称国产旗舰双雄。持续霸榜 SWE-Bench 系 agentic 编码基准。",
-      "line": 630
+      "line": 604
     },
     {
       "name": "Step 5 Preview",
@@ -5960,7 +5960,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 **10 月「真放权重」的代表**。600B 总参 / 27B 激活，1M 上下文，原生图文，BF16 + FP8，HuggingFace 与 ModelScope 同步。OpenRouter 日榜与周榜 token 用量全球第二。**它与 Beam / Mistral Large 4 的对比，构成了 10 月「发布 ≠ 开源」的完整案例。**",
-      "line": 631
+      "line": 605
     },
     {
       "name": "Nemotron 3.5 Super VL",
@@ -5976,7 +5976,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 **后训练开放多模态模型**，在专项基准上超越 Claude Opus 5 与 GPT-6.1 Sol。NVIDIA 的路线很清楚：不追通用榜首，专打「特定任务 + 可商用 + 训练配方公开」。",
-      "line": 632
+      "line": 606
     },
     {
       "name": "MiMo-V2.6-Flash",
@@ -5992,7 +5992,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "小米开源系模型：**309B 总参、15B 激活、1M 上下文**，主打「低激活高能力」的服务性价比路线。",
-      "line": 633
+      "line": 607
     },
     {
       "name": "Beam",
@@ -6008,7 +6008,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "Reflection 的开放权重新作，**以低算力配置对标中国开源旗舰**。⚠️ 10 月 5 日承诺 Apache 2.0，到 10 月 14 日仍只有 API 与等待列表——**「承诺开源」与「真的开源」之间的时间差，本身就是 10 月的行业议题。**",
-      "line": 634
+      "line": 608
     },
     {
       "name": "Ternary-Bonsai-2",
@@ -6024,7 +6024,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "**三值（Ternary）量化开源模型**——极限压缩换取自托管成本断崖式下降，与 Decider 2B 同推「自托管性价比战线」。",
-      "line": 635
+      "line": 609
     },
     {
       "name": "Strands Decider 2B",
@@ -6040,7 +6040,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "2B 参数性价比小模型，面向 Agent 工作流中的路由/裁决类轻任务，对抗集中式高价大模型。",
-      "line": 636
+      "line": 610
     },
     {
       "name": "Inkling",
@@ -6056,7 +6056,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "多模态 base 模型，专为微调设计。Apache 2.0，支持 vLLM / SGLang / llama.cpp。",
-      "line": 637
+      "line": 611
     },
     {
       "name": "Phi-5 Large",
@@ -6072,7 +6072,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "MMLU 88%，AIME 80%，24—32GB Mac 段最强纯推理模型。MIT 许可。",
-      "line": 638
+      "line": 612
     },
     {
       "name": "MiniMax-M3",
@@ -6088,7 +6088,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "MSA 稀疏注意力，1M 上下文，frontier-adjacent 编程能力。",
-      "line": 639
+      "line": 613
     },
     {
       "name": "Nemotron 3 Ultra",
@@ -6104,7 +6104,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "开源训练数据/配方/中间检查点，研究者首选。Apache 2.0。",
-      "line": 640
+      "line": 614
     },
     {
       "name": "GPT-6.1 Terra",
@@ -6120,7 +6120,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 主打 **computer use**，官方称在电脑操作任务上表现优异；实测以约 **1 折价格**获得 Astra 级操作能力。同周 OpenAI 把编码工具重构为常驻助理 **Dots**。",
-      "line": 641
+      "line": 615
     },
     {
       "name": "Kimi K3.1 Pro",
@@ -6136,7 +6136,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 3T 级参数、100 万 token 上下文，编程 / 3D 创建 / 金融研究 / Agent 能力大幅跃升，Highspeed 版快 2—3 倍。**完整权重计划 11-04 发布**——先 API 后权重，已成开源惯例。",
-      "line": 642
+      "line": 616
     },
     {
       "name": "Mistral Large 4「Le Chonk」",
@@ -6152,7 +6152,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 **万亿参数开放权重正式放出**，主攻网络安全场景，单任务成本较竞品低 **63%**，自称「中国以外最强开源模型」。**开源模型第一次把「安全」写进卖点。**",
-      "line": 643
+      "line": 617
     },
     {
       "name": "Gemini 4 Carbon",
@@ -6168,7 +6168,7 @@
       "category_index": 20,
       "tier": null,
       "desc": "🆕 在更新、更难的基准上**重回世界第一**，网络安全防御显著跃升；但访问受限，事实知识幻觉率高于前代 Argon。",
-      "line": 644
+      "line": 618
     },
     {
       "name": "TensorFlow",
@@ -6184,7 +6184,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Google出品的机器学习框架，深度学习领域的奠基者。",
-      "line": 657
+      "line": 631
     },
     {
       "name": "Transformers",
@@ -6200,7 +6200,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "HuggingFace核心库，提供10万+预训练模型的统一API。",
-      "line": 658
+      "line": 632
     },
     {
       "name": "PyTorch",
@@ -6216,7 +6216,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Meta出品的深度学习框架，学术界和AI研究的事实标准。",
-      "line": 659
+      "line": 633
     },
     {
       "name": "FastAPI",
@@ -6232,7 +6232,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Python高性能Web框架，AI应用后端的事实标准。",
-      "line": 660
+      "line": 634
     },
     {
       "name": "Streamlit",
@@ -6248,7 +6248,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "数据应用快速构建框架。",
-      "line": 661
+      "line": 635
     },
     {
       "name": "Ray",
@@ -6264,7 +6264,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "分布式AI计算引擎。",
-      "line": 662
+      "line": 636
     },
     {
       "name": "Gradio",
@@ -6280,7 +6280,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "HuggingFace出品，快速搭建ML模型Demo。",
-      "line": 663
+      "line": 637
     },
     {
       "name": "JAX",
@@ -6296,7 +6296,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Google出品的高性能数值计算框架。",
-      "line": 664
+      "line": 638
     },
     {
       "name": "NumPy",
@@ -6312,7 +6312,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Python科学计算基础库。",
-      "line": 665
+      "line": 639
     },
     {
       "name": "UnifoLM-WLA-1.0",
@@ -6328,7 +6328,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "**2026 年 10 月初发布**。宇树开源的 6B 参数**全身 VLA（Vision-Language-Action）模型**，基于 Qwen3-VL 构建，覆盖 64 项机器人任务——国产机器人头部厂商把「机器人大脑」放上开源货架。",
-      "line": 673
+      "line": 647
     },
     {
       "name": "RoboParty RP1",
@@ -6344,7 +6344,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "**2026 年 10 月初亮相**。全栈开源双足人形机器人：峰值扭矩 160 N·m，搭载 PartyOS 与无监督强化学习方案。从硬件图纸到训练配方全开源，个人实验室造人形的门槛被击穿。",
-      "line": 674
+      "line": 648
     },
     {
       "name": "VAST EdenLive",
@@ -6360,7 +6360,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10 月 18—19 日发布并开源**。实时世界模型，**首次在实时生成前提下同时做到「任意参考输入 + 任意画风 + 长时连续运行」**——世界模型从「能生成一段」走到「能持续跑」。",
-      "line": 675
+      "line": 649
     },
     {
       "name": "优必选 Thinker-WM",
@@ -6376,7 +6376,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 多模态统一具身世界模型，与 EdenLive 同日开源。定位是机器人「预演引擎」：在动作执行前先在模型里推演结果。",
-      "line": 676
+      "line": 650
     },
     {
       "name": "清华 GeoPT",
@@ -6392,7 +6392,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **物理世界模型**，同日开源。与前两者互补——EdenLive 管「视觉上像」，Thinker-WM 管「动作上对」，GeoPT 管「物理上成立」。",
-      "line": 677
+      "line": 651
     },
     {
       "name": "小米 21 自由度灵巧手",
@@ -6408,7 +6408,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10-27 披露**。21 自由度仿生灵巧手，基于 **1827 个工厂 SOP** 验证——灵巧手从实验室 demo 走向产线可制造。",
-      "line": 678
+      "line": 652
     },
     {
       "name": "启元 PrimeSim",
@@ -6424,7 +6424,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10-31 登顶两大机器人权威榜单**。世界模型直接用于机器人策略训练与仿真，与「世界模型指导芯片设计（NPU 700 TOPS）」同周出现。",
-      "line": 679
+      "line": 653
     },
     {
       "name": "人形机器人全套图纸",
@@ -6440,7 +6440,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10-27 开源**：从机械结构、关节到运动控制算法的全栈方案，可下载自造。与 RoboParty RP1 一起把「造人形」的门槛打到个人实验室级。",
-      "line": 680
+      "line": 654
     },
     {
       "name": "dive-into-llms",
@@ -6456,7 +6456,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "《动手学大模型 Dive into LLMs》系列编程实践教程：从 Prompt、RAG、Agent 到微调、量化、对齐，每章一个可跑 notebook。**中文圈最像「课程 + 实验」的一本。**",
-      "line": 694
+      "line": 668
     },
     {
       "name": "ai-agent-book",
@@ -6472,7 +6472,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库：**全书正文 + 编译版 PDF + 按章配套代码**。少见的「原理讲透 + 代码能跑」的 Agent 系统书，覆盖上下文工程、工具调用、记忆、多 Agent 与评测。",
-      "line": 695
+      "line": 669
     },
     {
       "name": "Hands-On-Large-Language-Models",
@@ -6488,7 +6488,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "O'Reilly《Hands-On Large Language Models》官方代码库，从 tokenizer 一路做到 RAG 与多模态。",
-      "line": 696
+      "line": 670
     },
     {
       "name": "ml-engineering",
@@ -6504,7 +6504,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "《Machine Learning Engineering》开放书：GPU 选型、显存估算、分布式训练、推理调优——**工程细节最硬的一本**。",
-      "line": 697
+      "line": 671
     },
     {
       "name": "generative-ai-for-beginners",
@@ -6520,7 +6520,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "**21 节课**从 0 到能搭生成式 AI 应用：Prompt、RAG、微调、Agent、负责任 AI 全覆盖，配代码、视频与作业。英文世界最常被推荐的入门课。",
-      "line": 703
+      "line": 677
     },
     {
       "name": "ML-For-Beginners",
@@ -6536,7 +6536,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "**12 周 26 课 52 个测验**的经典机器学习课，Scikit-learn 为主线，适合打地基。",
-      "line": 704
+      "line": 678
     },
     {
       "name": "llm-course",
@@ -6552,7 +6552,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "带**路线图 + Colab** 的 LLM 课程：从数学基础 → 微调 → 量化 → 部署，一条线走完，最适合「知道自己要补哪块」的人。",
-      "line": 705
+      "line": 679
     },
     {
       "name": "d2l-zh",
@@ -6568,7 +6568,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "《动手学深度学习》中文版——可运行、可讨论，被 70 多个国家 500 多所大学采用。**中文深度学习教材的事实标准。**",
-      "line": 706
+      "line": 680
     },
     {
       "name": "ai-agents-for-beginners",
@@ -6584,7 +6584,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "**18 节课**教怎么构建 AI Agent：工具调用、多 Agent 协作、记忆、评估与生产化。",
-      "line": 707
+      "line": 681
     },
     {
       "name": "AI-For-Beginners",
@@ -6600,7 +6600,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "12 周 24 节课的 AI 通识课，偏概念、历史与伦理，适合零基础转行先建立地图。",
-      "line": 708
+      "line": 682
     },
     {
       "name": "agents-course",
@@ -6616,7 +6616,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "官方 Agent 课程，同一套概念用 **smolagents / LlamaIndex / LangGraph** 三种实现对照讲，理解框架差异的最快路径。",
-      "line": 709
+      "line": 683
     },
     {
       "name": "courses",
@@ -6632,7 +6632,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "Anthropic 官方课程合集：Prompt 工程、工具调用、Agent 评测。",
-      "line": 710
+      "line": 684
     },
     {
       "name": "ML-YouTube-Courses",
@@ -6648,7 +6648,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "把全网优质 ML / AI 视频课整理成索引——省掉「学什么」的决策成本。",
-      "line": 711
+      "line": 685
     },
     {
       "name": "mlops-zoomcamp",
@@ -6664,7 +6664,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "免费 MLOps 训练营：实验跟踪、编排、部署、监控，从 notebook 到生产的那一段。",
-      "line": 712
+      "line": 686
     },
     {
       "name": "smol-course",
@@ -6680,7 +6680,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "小模型对齐课程：SFT、DPO、评测一条龙，适合只有单卡的人。",
-      "line": 713
+      "line": 687
     },
     {
       "name": "deep-rl-class",
@@ -6696,7 +6696,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "深度强化学习课程，配套 Unity ML-Agents 环境，理论与可玩 demo 并行。",
-      "line": 714
+      "line": 688
     },
     {
       "name": "LLMs-from-scratch",
@@ -6712,7 +6712,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "用 PyTorch **从零实现一个 ChatGPT 式 LLM**，逐章对应《Build a Large Language Model (From Scratch)》。2026 年最推荐的「懂原理」入口。",
-      "line": 720
+      "line": 694
     },
     {
       "name": "nanoGPT",
@@ -6728,7 +6728,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "最简单最快的 GPT 训练 / 微调仓库，几百行讲清 Transformer 训练全流程。**读一遍胜过十篇综述。**",
-      "line": 721
+      "line": 695
     },
     {
       "name": "Made-With-ML",
@@ -6744,7 +6744,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "生产级 ML 全流程课：数据校验、训练、部署、监控、迭代，强调「能上线」而不是「能跑分」。",
-      "line": 722
+      "line": 696
     },
     {
       "name": "happy-llm",
@@ -6760,7 +6760,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "《从零开始构建大模型》中文版：分词、注意力、预训练、SFT、RLHF 全部手写一遍。",
-      "line": 723
+      "line": 697
     },
     {
       "name": "llm.c",
@@ -6776,7 +6776,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "用**纯 C / CUDA** 训练 LLM，把框架黑盒拆到寄存器级别。想搞懂「显存去哪了」就看它。",
-      "line": 724
+      "line": 698
     },
     {
       "name": "fastbook",
@@ -6792,7 +6792,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "《Deep Learning for Coders》配套 notebook，自顶向下教学法的代表作——先能跑，再讲原理。",
-      "line": 725
+      "line": 699
     },
     {
       "name": "llm-action",
@@ -6808,7 +6808,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "大模型工程化实战合集：训练、推理、量化、RAG、Agent 落地，偏「踩坑记录」而非教科书。",
-      "line": 726
+      "line": 700
     },
     {
       "name": "nn-zero-to-hero",
@@ -6824,7 +6824,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "神经网络零基础系列（配套视频）：从 micrograd 一路写到 GPT。",
-      "line": 727
+      "line": 701
     },
     {
       "name": "micrograd",
@@ -6840,7 +6840,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "**100 行**的标量自动求导引擎 + 神经网络库，理解反向传播的最佳起点。",
-      "line": 728
+      "line": 702
     },
     {
       "name": "KuiperInfer",
@@ -6856,7 +6856,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "从零实现一个高性能深度学习推理库（支持 Llama2 / UNet / YOLOv5），**校招项目里最硬的一个**，配套逐行讲解。",
-      "line": 729
+      "line": 703
     },
     {
       "name": "Cortex",
@@ -6872,7 +6872,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "从零构建大模型：预训练 → SFT → RLHF 的完整实践，代码量克制，适合跟着跑一遍全流程。",
-      "line": 730
+      "line": 704
     },
     {
       "name": "awesome-llm-apps",
@@ -6888,7 +6888,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "**100+ 可直接跑的 AI Agent / RAG 应用合集**。星数超过大多数框架本体——「给我能跑的示例」比「给我一套抽象」更刚需。",
-      "line": 736
+      "line": 710
     },
     {
       "name": "Prompt-Engineering-Guide",
@@ -6904,7 +6904,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "提示工程指南：技术、论文、讲义、notebook 一网打尽，仍是这个领域引用最多的索引。",
-      "line": 737
+      "line": 711
     },
     {
       "name": "openai-cookbook",
@@ -6920,7 +6920,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "官方 API 示例与最佳实践：Prompt、函数调用、RAG、评测、结构化输出。",
-      "line": 738
+      "line": 712
     },
     {
       "name": "claude-cookbooks",
@@ -6936,7 +6936,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "Claude 官方 notebook 合集（原 anthropic-cookbook），工具调用与 Agent 模式最全的一份。",
-      "line": 739
+      "line": 713
     },
     {
       "name": "awesome-ai-agents",
@@ -6952,7 +6952,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "自主 Agent 清单，按用途分类——做选型调研时比搜索更快。",
-      "line": 740
+      "line": 714
     },
     {
       "name": "RAG_Techniques",
@@ -6968,7 +6968,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "**30+ 种 RAG 进阶技巧**，每种都有可运行实现：分块、重排、混合检索、GraphRAG、Agentic RAG。",
-      "line": 741
+      "line": 715
     },
     {
       "name": "GenAI_Agents",
@@ -6984,7 +6984,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "50+ 生成式 AI Agent 教程与实现，从最简单的单 Agent 到多 Agent 协作渐进。",
-      "line": 742
+      "line": 716
     },
     {
       "name": "cookbook（Gemini）",
@@ -7000,7 +7000,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "Gemini API 官方 cookbook：多模态、长上下文、函数调用示例。",
-      "line": 743
+      "line": 717
     },
     {
       "name": "langchain-academy",
@@ -7016,7 +7016,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "官方 LangGraph 课程：从 state graph、持久化到 human-in-the-loop 与部署。",
-      "line": 744
+      "line": 718
     },
     {
       "name": "hello-agents",
@@ -7032,7 +7032,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《从零开始构建智能体》——**中文世界目前最系统的 Agent 教程**，星数已超过微软的 Agent 课。",
-      "line": 750
+      "line": 724
     },
     {
       "name": "paper-reading",
@@ -7048,7 +7048,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "深度学习经典与新论文**逐段精读**，配套视频，中文圈读论文的最佳入口。",
-      "line": 751
+      "line": 725
     },
     {
       "name": "self-llm",
@@ -7064,7 +7064,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《开源大模型食用指南》：Linux 环境下全参 / LoRA 微调 + 部署国内外开源模型，国内环境最实用的一份。",
-      "line": 752
+      "line": 726
     },
     {
       "name": "llm-cookbook",
@@ -7080,7 +7080,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "吴恩达大模型系列课程的**中文版**，面向开发者，保留原课程的工程视角。",
-      "line": 753
+      "line": 727
     },
     {
       "name": "leedl-tutorial",
@@ -7096,7 +7096,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《李宏毅深度学习教程》整理版，李宏毅本人推荐，中文入门最友好的讲义之一。",
-      "line": 754
+      "line": 728
     },
     {
       "name": "so-large-lm",
@@ -7112,7 +7112,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《大模型基础》：把 LLM 的基础知识写成一本可读的书，适合作为系统复习材料。",
-      "line": 755
+      "line": 729
     },
     {
       "name": "CV",
@@ -7128,7 +7128,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "超级全面的深度学习笔记合集：土堆 PyTorch + 李沐《动手学深度学习》+ 吴恩达深度学习 + 大模型，**一份文档覆盖四门课**。",
-      "line": 756
+      "line": 730
     },
     {
       "name": "ai-guide",
@@ -7144,7 +7144,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "AI 资源大全 + Vibe Coding 零基础教程，含 OpenClaw 保姆级上手、大模型选型与提示词模板。**面向「想马上用起来」的开发者。**",
-      "line": 757
+      "line": 731
     },
     {
       "name": "llm-universe",
@@ -7160,7 +7160,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "面向小白开发者的大模型应用开发教程：API 调用 → RAG → 部署，配套在线阅读。",
-      "line": 758
+      "line": 732
     },
     {
       "name": "ai-agents-from-zero",
@@ -7176,7 +7176,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "「2026 最系统的 AI Agent 速成指南」：学习路径 + 实战项目 + 面试题，偏求职导向。",
-      "line": 759
+      "line": 733
     },
     {
       "name": "yu-ai-agent",
@@ -7192,7 +7192,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "基于 Spring Boot 3 + Java 21 + Spring AI 的 AI 应用实战项目，**Java 后端转 AI 的落地样本**。",
-      "line": 760
+      "line": 734
     },
     {
       "name": "yu-ai-code-mother",
@@ -7208,7 +7208,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "Spring Boot 3 + LangChain4j 的 AI 代码生成器全栈项目，含微服务拆分。",
-      "line": 761
+      "line": 735
     },
     {
       "name": "hugging-multi-agent",
@@ -7224,7 +7224,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "基于 MetaGPT 的多智能体入门教程，半天能跑通一个协作案例。",
-      "line": 762
+      "line": 736
     }
   ]
 }
