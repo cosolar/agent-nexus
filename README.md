@@ -1,3 +1,8 @@
+# Agent Nexus — AI Agent 开源生态图谱
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-贡献指南)
+
 > 🤖 数据来源：GitHub API / GitHub Trending / 技术媒体交叉验证 | 采集日期：2026-11-02（查漏补缺更新 11-03） | 数据真实可查
 >
 > 📋 本次更新覆盖 **2026 年 10 月 20 日—11 月 2 日**：新增 **DeepSeek Super-agent 原型**、**DeepInfer**、**Kimi K3.1 Pro**、**GPT-6.1 Terra**、**Mistral Large 4「Le Chonk」**、**Gemini 4 Carbon**、**Claude Duet**、**OpenAI Dots**、**DeepTutor**、**agent-desktop**、**TokenEconomizer**、**lightpanda browser**、**thinkrail**、**unslop**、**jailbreaks**、**Orkas / OpenMausBot / cindy** 等 20+ 条目；跟进 **Anthropic 递交 IPO（NASDAQ: $ANT）**、**DOJ 调查 NVIDIA 收购 HuggingFace**、**OpenAI 停止实时互联网训练**、**40% 的 GitHub PR 由 Agent 发起**、**银行阻断 Agent 访问**、**世界模型首次指导芯片设计** 等事件。
@@ -8,7 +13,7 @@
 >
 > 📚 新增第二十三节 **AI 学习教程 / 路线图**：补入 49 个教程类开源项目（开源书、体系课、从零实现、Cookbook、中文社区五组），Star 走 GitHub 接口实测。
 
-![介绍](https://oss.towao.com/proxy/plain/halo/2026/2026081216030263976629.png)
+![AI 开发者必备 Agent 开源生态图谱](assets/intro.png)
 
 ## 📑 目录
 
@@ -813,3 +818,33 @@
 7. 🧹 **历次整理动作**：修复被空行切断的表格、删除 43 行完全重复的表格行、合并跨章节重复条目、修正梯队错位、全篇统一 5 列并按 Star 降序排列、补齐目录与「选型四问」；本轮新增 22 个条目并刷新头部项目 Star。
 8. 🔍 **本轮查漏补缺**：以 [awesome-LLM-resources · 智能体 Agents](https://github.com/WangRongsheng/awesome-LLM-resources#智能体-agents) 为对照清单逐条比对，补入 **38 个此前缺失的项目**（含 pi 11.96 万、AutoGen 6.17 万、Coze Studio 2.18 万、agent-zero 1.97 万、rowboat 1.81 万、Qwen-Agent 1.72 万等），Star 与语言均通过 **GitHub API（2026-11-03）实时读取**。该清单中的 `AgentScope` 重复出现两次（本表只保留一条）；`AgentsMesh`、`BitFun`、`meta-llama/llama-agentic-system` 三个仓库当前无法解析（404 / 未公开），暂未收录。
 9. *整理不易，如有遗漏或错误欢迎指出 🙏*
+
+## 🤝 贡献指南
+
+欢迎补充遗漏项目、修正失效链接或刷新 Star 数据。
+
+**提 Issue**：链接 404、数据错误、分类不当，请附项目名与可验证的证据链接。
+
+**提 PR**：
+
+1. 沿用现有 5 列表格格式新增行，保持 Star 降序排列；
+2. 星数须注明采集日期，如 `⭐ 12.3k（11-03 实测）`，未取到新读数则保留旧值并标注原日期；
+3. 简介控制在 80 字内，突出「一句话定位 + 关键差异」，避免罗列功能清单。
+
+**收录标准**（当前建议值，可按社区反馈调整）：
+
+- 开源项目，或权重可公开下载；
+- Star ≥ 1k，或虽未达标但属于被权威媒体报道的新兴方向；
+- 近 6 个月有提交记录，且有可用的 README / 文档。
+
+> 信息不全时宁可标注「待核实」，也不要凭推测填写——这份清单的价值在于可查证，而不在于条数多。
+
+## 📄 许可证
+
+本项目（文档、表格与图表）采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可协议，完整条款见 [LICENSE](LICENSE)。
+
+- ✅ **允许**：自由转载、摘编、二次整理与商业使用。
+- 📌 **须署名**：注明来源与链接，并说明是否做过修改。
+- ⚠️ **第三方内容**：文中引用的项目名称、商标、Star 数据及简介归各自所有者，本仓库仅作汇总与评述，不主张其权利；转载时请一并遵守原项目许可证。
+
+建议署名格式：`Agent Nexus（https://github.com/cosolar/agent-nexus），CC BY 4.0`
