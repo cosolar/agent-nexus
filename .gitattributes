@@ -1,0 +1,10 @@
+# 统一以 LF 存储与检出，避免跨平台换行符差异
+# （CRLF 会让脚本中的 /(.+)$/ 之类正则失效，已踩过一次坑）
+* text=auto eol=lf
+
+# 二进制资源
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary

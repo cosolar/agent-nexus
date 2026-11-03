@@ -1,0 +1,34 @@
+name: 每周链接校验
+
+on:
+  schedule:
+    # 每周一 03:00 UTC（北京时间 11:00），与星数刷新错开
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 校验全部链接
+        # 存在 404/410 时退出码为 1，会让本次运行标红，便于及时发现
+        run: node scripts/check-links.mjs --json --concurrency 6 --timeout 12000
+
+      - name: 上传报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: reports/
+          retention-days: 90

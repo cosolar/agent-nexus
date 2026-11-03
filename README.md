@@ -812,12 +812,13 @@
 1. ✅ **数据通过全网实时搜索 + GitHub API 获取**（采集截止 **2026-11-02**），综合 GitHub 日榜/周榜/月榜、YourTools 趋势榜、技术媒体（量子位、机器之心、VentureBeat、TechCrunch、The Verge、WIRED、MIT TR、Reuters）与每日 AI 研究简报等多源交叉验证。
 2. 📚 覆盖 **23 大类别、449 条目**（去重后实时统计），涵盖 Agent 生态全链路（框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → **学习教程**）。
 3. 🔗 项目标题均内联 **GitHub / HuggingFace / 报道出处**链接。⚠️ 部分新上榜项目**暂未核实到官方仓库**，链接先指向报道出处，后续版本补正（如 Reflection Beam、MiMo-V2.6-Flash、Ternary-Bonsai-2、DeepInfer 等）。
-4. 📏 **Star 口径说明**：本轮把可核实的头部项目刷新到 **2026-11-01 榜单实测**（REA 41.5 万、claude-mem 10.8 万、impeccable 9.8 万、VoiceStudio 9.7 万、security-audit-skill 5.5 万、iFixAi 4.1 万、OpenCode 22 万）；未拿到新读数的条目保留上一轮 10-15 读数，逐条标注日期。不同来源仍可能有小幅波动，数据仅供参考。
+4. 📏 **Star 口径说明**：本轮把可核实的头部项目刷新到 **2026-11-01 榜单实测**（REA 41.5 万、claude-mem 10.8 万、impeccable 9.8 万、VoiceStudio 9.7 万、security-audit-skill 5.5 万、iFixAi 4.1 万、OpenCode 22 万）。**未标注日期的条目（共 301 条）均为 2026-10-15 版读数**，标注日期者为该日实测——两者相差可达两周以上，选型时请以标注日期为准。不同来源仍可能有小幅波动，数据仅供参考。
 5. 🆕 标记为本次更新新增的项目或重大变更；⚠️ 标记为需要注意的风险（CVE、争议、口径存疑）。
 6. 📐 **表格统一为 5 列**：项目类表为「项目 / Stars / 语言 / 出品方 / 简介」，模型表为「模型 / Stars / 出品方 / 发布 · 参数 / 简介」，目录与速览等功能表同样按 5 列组织。出品方取自项目官方仓库所属组织，非 GitHub 项目标注为「—」。
 7. 🧹 **历次整理动作**：修复被空行切断的表格、删除 43 行完全重复的表格行、合并跨章节重复条目、修正梯队错位、全篇统一 5 列并按 Star 降序排列、补齐目录与「选型四问」；本轮新增 22 个条目并刷新头部项目 Star。
 8. 🔍 **本轮查漏补缺**：以 [awesome-LLM-resources · 智能体 Agents](https://github.com/WangRongsheng/awesome-LLM-resources#智能体-agents) 为对照清单逐条比对，补入 **38 个此前缺失的项目**（含 pi 11.96 万、AutoGen 6.17 万、Coze Studio 2.18 万、agent-zero 1.97 万、rowboat 1.81 万、Qwen-Agent 1.72 万等），Star 与语言均通过 **GitHub API（2026-11-03）实时读取**。该清单中的 `AgentScope` 重复出现两次（本表只保留一条）；`AgentsMesh`、`BitFun`、`meta-llama/llama-agentic-system` 三个仓库当前无法解析（404 / 未公开），暂未收录。
-9. *整理不易，如有遗漏或错误欢迎指出 🙏*
+9. 🗂️ **结构化数据**：`data/projects.json` 由 `scripts/extract.mjs` 从本文抽取（449 条，含星数、采集日期、语言、分类、梯队），供检索与自动化脚本使用；README 仍是唯一事实来源，数据文件仅为派生索引。
+10. *整理不易，如有遗漏或错误欢迎指出 🙏*
 
 ## 🤝 贡献指南
 
