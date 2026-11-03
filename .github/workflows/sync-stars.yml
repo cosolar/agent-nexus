@@ -33,6 +33,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/sync-stars.mjs --write
 
+      - name: 重算统计摘要
+        # sync 只更新星数与采集日期，summary 需重新抽取才能同步
+        run: node scripts/extract.mjs
+
       - name: 提交变更
         run: |
           git config user.name "github-actions[bot]"

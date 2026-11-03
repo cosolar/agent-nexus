@@ -67,6 +67,19 @@ function buildColumnMap(headerCells) {
 function main() {
   // 统一换行符：Windows 检出的 CRLF 会让 /(.+)$/ 失效（. 不匹配 \r）
   const markdown = readFileSync(README, 'utf8').replace(/\r\n/g, '\n');
+
+  // 读取上一版数据：表格中的日期标注已移除，需从历史数据继承采集日期
+  const prevAsOf = new Map();
+  try {
+    const prev = JSON.parse(readFileSync(OUT_FILE, 'utf8'));
+    for (const p of prev.projects || []) {
+      if (p.repo && p.stars_as_of) {
+        prevAsOf.set(p.repo, { stars: p.stars, asOf: p.stars_as_of });
+      }
+    }
+  } catch {
+    // 首次生成，无历史数据可继承
+  }
   const lines = markdown.split('\n');
 
   const projects = [];
@@ -116,6 +129,15 @@ function main() {
     const starInfo = parseStars(cells[cols.stars ?? 1] || '');
     const repo = parseRepo(url);
 
+    // 表格已不展示日期，采集日期从历史数据继承。
+    // stars_as_of 表示「该星数最后一次采集的时间」，与星数是否变化无关，
+    // 因此按 repo 无条件继承；星数刷新时由 sync-stars.mjs 同步更新该字段。
+    let asOf = starInfo.asOf;
+    if (!asOf && repo) {
+      const prev = prevAsOf.get(repo);
+      if (prev) asOf = prev.asOf;
+    }
+
     if (!starInfo.stars && !/新项目|—/.test(starInfo.raw)) {
       warnings.push(`L${i + 1} ${name}: 星数无法解析 -> "${starInfo.raw}"`);
     }
@@ -129,7 +151,7 @@ function main() {
       url,
       stars: starInfo.stars,
       stars_raw: starInfo.raw,
-      stars_as_of: starInfo.asOf,
+      stars_as_of: asOf,
       lang: cols.lang != null ? cells[cols.lang]?.replace(/\*\*/g, '').trim() || null : null,
       org: cols.org != null ? cells[cols.org]?.replace(/\*\*/g, '').trim() || null : null,
       meta: cols.meta != null ? cells[cols.meta]?.replace(/\*\*/g, '').trim() || null : null,

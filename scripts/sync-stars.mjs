@@ -161,7 +161,8 @@ async function main() {
     if (!change) continue;
     const cells = lines[i].split('|');
     if (cells.length < 3) continue;
-    const newCell = ` ⭐ **${fmtStars(change.to)}**（${stamp} 实测） `;
+    // 表格只展示星数，不写日期标注；采集时间记录在 data/projects.json
+    const newCell = ` ⭐ **${fmtStars(change.to)}** `;
     if (!/⭐/.test(cells[2])) continue;
     cells[2] = newCell;
     lines[i] = cells.join('|');
@@ -176,7 +177,7 @@ async function main() {
     const hit = results.find((r) => r.project === p && !r.error);
     if (hit && hit.stars != null) {
       p.stars = hit.stars;
-      p.stars_raw = `**${fmtStars(hit.stars)}**（${stamp} 实测）`;
+      p.stars_raw = `**${fmtStars(hit.stars)}**`;
       p.stars_as_of = `2026-${stamp}`;
     }
   }
