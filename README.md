@@ -5,7 +5,7 @@
 
 > 🤖 数据来源：GitHub API / GitHub Trending / 技术媒体交叉验证 | 数据真实可查
 >
-> 📊 收录 **23 大类 / 449 个开源项目**，统一 5 列表格；星数经 GitHub API 实测，精确采集时间见 `data/projects.json` 的 `stars_as_of` 字段。
+> 📊 收录 **23 大类 / 451 个开源项目**，统一 5 列表格；星数经 GitHub API 实测，精确采集时间见 `data/projects.json` 的 `stars_as_of` 字段。
 >
 > 📅 最新分析：[2026-11-18 · Agent 生态周报](analysis/2026-11-18.md) — 覆盖 11.03—11.18 的两周星数对比、重大事件与趋势判断。
 
@@ -18,7 +18,7 @@
 | 一 | 🤖 Agent 框架 | 从「能跑」到「带缰绳」，百亿俱乐部扩容 | 110 | REA |
 | 二 | 🧩 Agent Skills | GitHub 涨星最快品类，已卷到专业工具链 | 24 | Superpowers |
 | 三 | 🦞 个人 AI 助手 | 全平台常驻，本地优先成主流 | 12 | OpenClaw |
-| 四 | 🚀 AI 编程 / 开发工具 | 编码 Agent 三强 + 评审 / 并行 / 逆向三新层 | 37 | Codex CLI |
+| 四 | 🚀 AI 编程 / 开发工具 | 编码 Agent 三强 + 评审 / 并行 / 逆向三新层 | 38 | Codex CLI |
 | 五 | 📚 RAG & 知识库 | 企业知识平台 / 上下文数据库 / 会话记忆三层分化 | 30 | claude-mem |
 | 六 | ⚡ 推理 & 部署 | 本地推理 + 网关 + 国产算力解绑 | 20 | Ollama |
 | 七 | 🏋️ 训练 / 微调 | LoRA 生态稳定盘 | 10 | Unsloth |
@@ -27,7 +27,7 @@
 | 十 | 👁️ 计算机视觉 | OCR 与分割 | 7 | OpenCV |
 | 十一 | 🗄️ 向量数据库 | 六强格局 | 6 | Milvus |
 | 十二 | 🔢 嵌入 / 检索 | 多模态嵌入补位 | 3 | Jina |
-| 十三 | 🔌 协议 / 标准化 | MCP 事实标准 + Agent-Native 工具层 | 15 | awesome-mcp-servers |
+| 十三 | 🔌 协议 / 标准化 | MCP 事实标准 + Agent-Native 工具层 | 16 | awesome-mcp-servers |
 | 十四 | 🖥️ UI 平台 | 开源 Chat 界面 | 5 | Open WebUI |
 | 十五 | 🔄 工作流自动化 | 低代码 + Agent 节点 | 8 | n8n |
 | 十六 | 📈 监控 / 评估 | 可观测性与评测 | 5 | LangFuse |
@@ -38,7 +38,7 @@
 | 二十一 | 🏗️ 基础框架 | 底座稳定盘 | 9 | TensorFlow |
 | 二十二 | 🤖 具身智能 / 机器人 | 世界模型 + VLA | 8 | UnifoLM-WLA-1.0 |
 | 二十三 | 📚 AI 学习教程 / 路线图 | 开源书 / 体系课 / 从零实现 / Cookbook / 中文社区 | 49 | awesome-llm-apps |
-| **合计** | **23 大类** | **框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → 教程** | **449** | — |
+| **合计** | **23 大类** | **框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → 教程** | **451** | — |
 
 ## 📅 分析存档
 
@@ -280,6 +280,7 @@
 | [**agenttrail**](https://github.com/sodiumsun/agenttrail) | ⭐ **1k** | HTML | sodiumsun | 🆕 **2026年8月21日开源**，MIT许可。AI编码Agent的无限画布——每个仓库是可缩放实时地图上的一个区域，可视化Claude Code/Codex/Cursor的会话、计划、工具调用和文件变更。本地运行、零依赖。 |
 | [**indra**](https://github.com/datalab-to/indra) | ⭐ **1.9k** | Python | datalab-to | 🆕 约 **1M 参数**的轻量 OCR 模型，专为 CPU 高速运行设计：**49 页/秒**把 PDF/图片转成 markdown、纯文本或带坐标 JSON。在「大模型做 OCR」的潮流里反向做小。 |
 | [**ruflo**](https://github.com/ruvnet/ruflo) | ⭐ **81.8k** | TypeScript | ruvnet | 🆕 「原始 Agent Harness」——多智能体集群、自适应记忆与联邦协作。在 harness 层继续往「分布式」方向推。 |
+| [**Plannotator**](https://github.com/backnotprop/plannotator) | ⭐ **11k** | — | backnotprop | **「编码 Agent 的审稿台」**：把 Agent 的计划、文档与 diff 放进本地浏览器逐段批注，意见回传为下一轮输入；已接入 Claude Code / Codex / Copilot CLI / Gemini CLI / OpenCode 等十种宿主。Apache-2.0 / MIT。 |
 
 ### 五、📚 RAG & 知识库（含 Agent 记忆层，2026 年 10 月最拥挤赛道）
 
@@ -482,6 +483,7 @@
 | [**claude-plugins-community**](https://github.com/anthropics/claude-plugins-community) | ⭐ **4.9k** | Python | anthropics | 🆕 **2026年9月开源（Anthropic官方）**。Claude 社区插件镜像/分发仓库——官方下场做插件生态治理，与 DSH"万物皆插件"形成正面呼应，插件分发标准之争开启。 |
 | [**commerce-agents**](https://github.com/anthropics/commerce-agents) | ⭐ **3.5k** | Python | anthropics | 🆕 **2026年9月1日开源**，Apache 2.0。**Anthropic官方商业Agent参考蓝图**——覆盖零售、电商、电信、娱乐场景的购物和商户Agent示例。标志着Agent从"开发者工具"走向"商业化落地"，由模型厂商亲自下场提供生产级参考实现。 |
 | [**x64dbg-mcp-server**](https://github.com/duty1g/x64dbg-mcp-server) | ⭐ **2.8k** | Zig | duty1g | 🆕 **2026年8月22日开源**，MIT许可。**MCP渗透到逆向工程领域**——Zig编写，零依赖单二进制，为x64dbg调试器暴露完整MCP接口。AI Agent可设断点、单步执行、读内存、dump寄存器，将MCP从"Web工具"扩展到"二进制安全"。 |
+| [**ag-ui**](https://github.com/ag-ui-protocol/ag-ui) | ⭐ **19.2k** | TypeScript | ag-ui-protocol | **「Agent ↔ 用户」协议层**：把 Agent 运行状态以事件流推给前端应用，与 MCP（工具接入）、A2A（Agent 互通）并列，补齐交互这一段。11 月中旬进入 GitHub Trending 前列。 |
 
 ### 十四、🖥️ UI 平台
 
@@ -746,14 +748,14 @@
 ## 📌 说明
 
 1. ✅ **数据通过全网实时搜索 + GitHub API 获取**（内容调研截止 **2026-11-02**，星数刷新至 **2026-11-16**），综合 GitHub 日榜/周榜/月榜、YourTools 趋势榜、技术媒体（量子位、机器之心、VentureBeat、TechCrunch、The Verge、WIRED、MIT TR、Reuters）与每日 AI 研究简报等多源交叉验证。
-2. 📚 覆盖 **23 大类别、449 条目**（去重后实时统计），涵盖 Agent 生态全链路（框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → **学习教程**）。
+2. 📚 覆盖 **23 大类别、451 条目**（去重后实时统计），涵盖 Agent 生态全链路（框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → **学习教程**）。
 3. 🔗 项目标题均内联 **GitHub / HuggingFace / 报道出处**链接。⚠️ 部分新上榜项目**暂未核实到官方仓库**，链接先指向报道出处，后续版本补正（如 Reflection Beam、MiMo-V2.6-Flash、Ternary-Bonsai-2、DeepInfer 等）。
-4. 📏 **Star 口径说明**：星数于 **2026-11-16** 经 GitHub API 统一刷新（449 条中 420 条取得读数）。为保持表格整洁，日期标注不再逐条展示，**每条数据的精确采集时间记录在 `data/projects.json` 的 `stars_as_of` 字段**；本次未取到读数的条目沿用上一版数值。不同来源仍可能有小幅波动，数据仅供参考。
+4. 📏 **Star 口径说明**：星数于 **2026-11-16** 经 GitHub API 统一刷新（451 条中 422 条取得读数）。为保持表格整洁，日期标注不再逐条展示，**每条数据的精确采集时间记录在 `data/projects.json` 的 `stars_as_of` 字段**；本次未取到读数的条目沿用上一版数值。不同来源仍可能有小幅波动，数据仅供参考。
 5. 🆕 标记为本次更新新增的项目或重大变更；⚠️ 标记为需要注意的风险（CVE、争议、口径存疑）。
 6. 📐 **表格统一为 5 列**：项目类表为「项目 / Stars / 语言 / 出品方 / 简介」，模型表为「模型 / Stars / 出品方 / 发布 · 参数 / 简介」，目录与速览等功能表同样按 5 列组织。出品方取自项目官方仓库所属组织，非 GitHub 项目标注为「—」。
 7. 🧹 **历次整理动作**：修复被空行切断的表格、删除 43 行完全重复的表格行、合并跨章节重复条目、修正梯队错位、全篇统一 5 列并按 Star 降序排列、补齐目录与「选型四问」；本轮新增 22 个条目并刷新头部项目 Star。
 8. 🔍 **本轮查漏补缺**：以 [awesome-LLM-resources · 智能体 Agents](https://github.com/WangRongsheng/awesome-LLM-resources#智能体-agents) 为对照清单逐条比对，补入 **38 个此前缺失的项目**（含 pi 11.96 万、AutoGen 6.17 万、Coze Studio 2.18 万、agent-zero 1.97 万、rowboat 1.81 万、Qwen-Agent 1.72 万等），Star 与语言均通过 **GitHub API（2026-11-03）实时读取**。该清单中的 `AgentScope` 重复出现两次（本表只保留一条）；`AgentsMesh`、`BitFun`、`meta-llama/llama-agentic-system` 三个仓库当前无法解析（404 / 未公开），暂未收录。
-9. 🗂️ **结构化数据**：`data/projects.json` 由 `scripts/extract.mjs` 从本文抽取（449 条，含星数、采集日期、语言、分类、梯队），供检索与自动化脚本使用；README 仍是唯一事实来源，数据文件仅为派生索引。
+9. 🗂️ **结构化数据**：`data/projects.json` 由 `scripts/extract.mjs` 从本文抽取（451 条，含星数、采集日期、语言、分类、梯队），供检索与自动化脚本使用；README 仍是唯一事实来源，数据文件仅为派生索引。
 10. *整理不易，如有遗漏或错误欢迎指出 🙏*
 
 ## 🤝 贡献指南
