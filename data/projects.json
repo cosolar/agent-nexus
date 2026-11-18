@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-18T06:39:22.843Z",
+  "generatedAt": "2026-11-18T07:34:25.100Z",
   "summary": {
-    "total": 451,
+    "total": 455,
     "withStars": 422,
-    "withoutStars": 29,
+    "withoutStars": 33,
     "dated": 393,
     "undated": 29,
     "categories": 23,
@@ -27,9 +27,9 @@
       "十七、🛡️ AI 安全与防护（事前扫描 → 事中拦截 → 事后审计，三层已齐）": 14,
       "十八、💰 AI 金融 / 量化交易（🆕 2026年7月新兴赛道）": 5,
       "十九、🏢 Agent 办公自动化（🆕 2026年7月新兴赛道）": 5,
-      "二十、🧠 大模型（开源权重）": 28,
+      "二十、🧠 大模型（开源权重）": 30,
       "二十一、🏗️ 基础框架": 9,
-      "二十二、🤖 具身智能 / 机器人（🆕 2026 年 10 月新入列赛道）": 8,
+      "二十二、🤖 具身智能 / 机器人（🆕 2026 年 10 月新入列赛道）": 10,
       "二十三、📚 AI 学习教程 / 路线图（🆕 2026 年 11 月新入列赛道）": 49
     },
     "dateBuckets": {
@@ -6204,6 +6204,38 @@
       "line": 621
     },
     {
+      "name": "LongCat-2.5",
+      "repo": null,
+      "url": "https://baijiahao.baidu.com/s?id=1881449720051839293",
+      "stars": null,
+      "stars_raw": "—",
+      "stars_as_of": null,
+      "lang": null,
+      "org": "美团",
+      "meta": "2026-11-10 · 1.6T 总参数 / 480 亿激活",
+      "category": "二十、🧠 大模型（开源权重）",
+      "category_index": 20,
+      "tier": null,
+      "desc": "**「面向长程智能体任务的原生多模态模型」** MIT 协议开源，支持商用推理与二次训练且无需额外授权；100 万 token 上下文，视觉信号表示为多层级离散 token 与文本共用，训练全程国产算力。",
+      "line": 622
+    },
+    {
+      "name": "MiniMax H3-Image",
+      "repo": null,
+      "url": "https://baijiahao.baidu.com/s?id=1881558442793419661",
+      "stars": null,
+      "stars_raw": "—",
+      "stars_as_of": null,
+      "lang": null,
+      "org": "MiniMax",
+      "meta": "2026-11-10 · 未公开",
+      "category": "二十、🧠 大模型（开源权重）",
+      "category_index": 20,
+      "tier": null,
+      "desc": "**「10 秒出 4K 图的开放权重」** 衍生自 H3，支持文生图 / 图像参考 / 图像编辑，最多 16 张参考图、4096×4096 输出；发布即拿下 Artificial Analysis 文生图与图像编辑开放权重双榜第一。",
+      "line": 623
+    },
+    {
       "name": "TensorFlow",
       "repo": "tensorflow/tensorflow",
       "url": "https://github.com/tensorflow/tensorflow",
@@ -6217,7 +6249,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Google出品的机器学习框架，深度学习领域的奠基者。",
-      "line": 634
+      "line": 636
     },
     {
       "name": "Transformers",
@@ -6233,7 +6265,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "HuggingFace核心库，提供10万+预训练模型的统一API。",
-      "line": 635
+      "line": 637
     },
     {
       "name": "PyTorch",
@@ -6249,7 +6281,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Meta出品的深度学习框架，学术界和AI研究的事实标准。",
-      "line": 636
+      "line": 638
     },
     {
       "name": "FastAPI",
@@ -6265,7 +6297,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Python高性能Web框架，AI应用后端的事实标准。",
-      "line": 637
+      "line": 639
     },
     {
       "name": "Streamlit",
@@ -6281,7 +6313,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "数据应用快速构建框架。",
-      "line": 638
+      "line": 640
     },
     {
       "name": "Ray",
@@ -6297,7 +6329,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "分布式AI计算引擎。",
-      "line": 639
+      "line": 641
     },
     {
       "name": "Gradio",
@@ -6313,7 +6345,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "HuggingFace出品，快速搭建ML模型Demo。",
-      "line": 640
+      "line": 642
     },
     {
       "name": "JAX",
@@ -6329,7 +6361,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Google出品的高性能数值计算框架。",
-      "line": 641
+      "line": 643
     },
     {
       "name": "NumPy",
@@ -6345,7 +6377,7 @@
       "category_index": 21,
       "tier": null,
       "desc": "Python科学计算基础库。",
-      "line": 642
+      "line": 644
     },
     {
       "name": "UnifoLM-WLA-1.0",
@@ -6361,7 +6393,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "**2026 年 10 月初发布**。宇树开源的 6B 参数**全身 VLA（Vision-Language-Action）模型**，基于 Qwen3-VL 构建，覆盖 64 项机器人任务——国产机器人头部厂商把「机器人大脑」放上开源货架。",
-      "line": 650
+      "line": 652
     },
     {
       "name": "RoboParty RP1",
@@ -6377,7 +6409,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "**2026 年 10 月初亮相**。全栈开源双足人形机器人：峰值扭矩 160 N·m，搭载 PartyOS 与无监督强化学习方案。从硬件图纸到训练配方全开源，个人实验室造人形的门槛被击穿。",
-      "line": 651
+      "line": 653
     },
     {
       "name": "VAST EdenLive",
@@ -6393,7 +6425,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10 月 18—19 日发布并开源**。实时世界模型，**首次在实时生成前提下同时做到「任意参考输入 + 任意画风 + 长时连续运行」**——世界模型从「能生成一段」走到「能持续跑」。",
-      "line": 652
+      "line": 654
     },
     {
       "name": "优必选 Thinker-WM",
@@ -6409,7 +6441,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 多模态统一具身世界模型，与 EdenLive 同日开源。定位是机器人「预演引擎」：在动作执行前先在模型里推演结果。",
-      "line": 653
+      "line": 655
     },
     {
       "name": "清华 GeoPT",
@@ -6425,7 +6457,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **物理世界模型**，同日开源。与前两者互补——EdenLive 管「视觉上像」，Thinker-WM 管「动作上对」，GeoPT 管「物理上成立」。",
-      "line": 654
+      "line": 656
     },
     {
       "name": "小米 21 自由度灵巧手",
@@ -6441,7 +6473,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10-27 披露**。21 自由度仿生灵巧手，基于 **1827 个工厂 SOP** 验证——灵巧手从实验室 demo 走向产线可制造。",
-      "line": 655
+      "line": 657
     },
     {
       "name": "启元 PrimeSim",
@@ -6457,7 +6489,7 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10-31 登顶两大机器人权威榜单**。世界模型直接用于机器人策略训练与仿真，与「世界模型指导芯片设计（NPU 700 TOPS）」同周出现。",
-      "line": 656
+      "line": 658
     },
     {
       "name": "人形机器人全套图纸",
@@ -6473,7 +6505,39 @@
       "category_index": 22,
       "tier": null,
       "desc": "🆕 **10-27 开源**：从机械结构、关节到运动控制算法的全栈方案，可下载自造。与 RoboParty RP1 一起把「造人形」的门槛打到个人实验室级。",
-      "line": 657
+      "line": 659
+    },
+    {
+      "name": "uni-robot-agent",
+      "repo": "Open-RUA/uni-robot-agent",
+      "url": "https://github.com/Open-RUA/uni-robot-agent",
+      "stars": null,
+      "stars_raw": "新项目",
+      "stars_as_of": null,
+      "lang": "Python",
+      "org": "清华 + UC Berkeley",
+      "meta": null,
+      "category": "二十二、🤖 具身智能 / 机器人（🆕 2026 年 10 月新入列赛道）",
+      "category_index": 22,
+      "tier": null,
+      "desc": "**「机器人使用智能体的统一 Harness」** 让开源权重模型通过标准化工具接口操控不同机器人与仿真环境；Qwen3.8-Flash-Next 搭配它在 RoboDojo 基准拿 31.39 分，超过 GPT-6 Astra + RoboProbe。",
+      "line": 660
+    },
+    {
+      "name": "LingBot-Touch",
+      "repo": null,
+      "url": "https://ai-bot.cn/lingbot-touch/",
+      "stars": null,
+      "stars_raw": "新项目",
+      "stars_as_of": null,
+      "lang": "—",
+      "org": "蚂蚁灵波",
+      "meta": null,
+      "category": "二十二、🤖 具身智能 / 机器人（🆕 2026 年 10 月新入列赛道）",
+      "category_index": 22,
+      "tier": null,
+      "desc": "**「触觉基座模型」** 把磁触觉 / 视触觉 / 压阻式三类异构信号统一编码为触觉 token（JEPA 路线）；Tiny 版仅 532 万参数，接入 T-Rex / π0.5 / LingBot-VLA 后成功率提升 23—25 个百分点。",
+      "line": 661
     },
     {
       "name": "dive-into-llms",
@@ -6489,7 +6553,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "《动手学大模型 Dive into LLMs》系列编程实践教程：从 Prompt、RAG、Agent 到微调、量化、对齐，每章一个可跑 notebook。**中文圈最像「课程 + 实验」的一本。**",
-      "line": 671
+      "line": 675
     },
     {
       "name": "ai-agent-book",
@@ -6505,7 +6569,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库：**全书正文 + 编译版 PDF + 按章配套代码**。少见的「原理讲透 + 代码能跑」的 Agent 系统书，覆盖上下文工程、工具调用、记忆、多 Agent 与评测。",
-      "line": 672
+      "line": 676
     },
     {
       "name": "Hands-On-Large-Language-Models",
@@ -6521,7 +6585,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "O'Reilly《Hands-On Large Language Models》官方代码库，从 tokenizer 一路做到 RAG 与多模态。",
-      "line": 673
+      "line": 677
     },
     {
       "name": "ml-engineering",
@@ -6537,7 +6601,7 @@
       "category_index": 23,
       "tier": "📖 开源书（成书的系统教程）",
       "desc": "《Machine Learning Engineering》开放书：GPU 选型、显存估算、分布式训练、推理调优——**工程细节最硬的一本**。",
-      "line": 674
+      "line": 678
     },
     {
       "name": "generative-ai-for-beginners",
@@ -6553,7 +6617,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "**21 节课**从 0 到能搭生成式 AI 应用：Prompt、RAG、微调、Agent、负责任 AI 全覆盖，配代码、视频与作业。英文世界最常被推荐的入门课。",
-      "line": 680
+      "line": 684
     },
     {
       "name": "ML-For-Beginners",
@@ -6569,7 +6633,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "**12 周 26 课 52 个测验**的经典机器学习课，Scikit-learn 为主线，适合打地基。",
-      "line": 681
+      "line": 685
     },
     {
       "name": "llm-course",
@@ -6585,7 +6649,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "带**路线图 + Colab** 的 LLM 课程：从数学基础 → 微调 → 量化 → 部署，一条线走完，最适合「知道自己要补哪块」的人。",
-      "line": 682
+      "line": 686
     },
     {
       "name": "d2l-zh",
@@ -6601,7 +6665,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "《动手学深度学习》中文版——可运行、可讨论，被 70 多个国家 500 多所大学采用。**中文深度学习教材的事实标准。**",
-      "line": 683
+      "line": 687
     },
     {
       "name": "ai-agents-for-beginners",
@@ -6617,7 +6681,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "**18 节课**教怎么构建 AI Agent：工具调用、多 Agent 协作、记忆、评估与生产化。",
-      "line": 684
+      "line": 688
     },
     {
       "name": "AI-For-Beginners",
@@ -6633,7 +6697,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "12 周 24 节课的 AI 通识课，偏概念、历史与伦理，适合零基础转行先建立地图。",
-      "line": 685
+      "line": 689
     },
     {
       "name": "agents-course",
@@ -6649,7 +6713,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "官方 Agent 课程，同一套概念用 **smolagents / LlamaIndex / LangGraph** 三种实现对照讲，理解框架差异的最快路径。",
-      "line": 686
+      "line": 690
     },
     {
       "name": "courses",
@@ -6665,7 +6729,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "Anthropic 官方课程合集：Prompt 工程、工具调用、Agent 评测。",
-      "line": 687
+      "line": 691
     },
     {
       "name": "ML-YouTube-Courses",
@@ -6681,7 +6745,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "把全网优质 ML / AI 视频课整理成索引——省掉「学什么」的决策成本。",
-      "line": 688
+      "line": 692
     },
     {
       "name": "mlops-zoomcamp",
@@ -6697,7 +6761,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "免费 MLOps 训练营：实验跟踪、编排、部署、监控，从 notebook 到生产的那一段。",
-      "line": 689
+      "line": 693
     },
     {
       "name": "smol-course",
@@ -6713,7 +6777,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "小模型对齐课程：SFT、DPO、评测一条龙，适合只有单卡的人。",
-      "line": 690
+      "line": 694
     },
     {
       "name": "deep-rl-class",
@@ -6729,7 +6793,7 @@
       "category_index": 23,
       "tier": "🎓 体系课与路线图",
       "desc": "深度强化学习课程，配套 Unity ML-Agents 环境，理论与可玩 demo 并行。",
-      "line": 691
+      "line": 695
     },
     {
       "name": "LLMs-from-scratch",
@@ -6745,7 +6809,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "用 PyTorch **从零实现一个 ChatGPT 式 LLM**，逐章对应《Build a Large Language Model (From Scratch)》。2026 年最推荐的「懂原理」入口。",
-      "line": 697
+      "line": 701
     },
     {
       "name": "nanoGPT",
@@ -6761,7 +6825,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "最简单最快的 GPT 训练 / 微调仓库，几百行讲清 Transformer 训练全流程。**读一遍胜过十篇综述。**",
-      "line": 698
+      "line": 702
     },
     {
       "name": "Made-With-ML",
@@ -6777,7 +6841,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "生产级 ML 全流程课：数据校验、训练、部署、监控、迭代，强调「能上线」而不是「能跑分」。",
-      "line": 699
+      "line": 703
     },
     {
       "name": "happy-llm",
@@ -6793,7 +6857,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "《从零开始构建大模型》中文版：分词、注意力、预训练、SFT、RLHF 全部手写一遍。",
-      "line": 700
+      "line": 704
     },
     {
       "name": "llm.c",
@@ -6809,7 +6873,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "用**纯 C / CUDA** 训练 LLM，把框架黑盒拆到寄存器级别。想搞懂「显存去哪了」就看它。",
-      "line": 701
+      "line": 705
     },
     {
       "name": "fastbook",
@@ -6825,7 +6889,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "《Deep Learning for Coders》配套 notebook，自顶向下教学法的代表作——先能跑，再讲原理。",
-      "line": 702
+      "line": 706
     },
     {
       "name": "llm-action",
@@ -6841,7 +6905,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "大模型工程化实战合集：训练、推理、量化、RAG、Agent 落地，偏「踩坑记录」而非教科书。",
-      "line": 703
+      "line": 707
     },
     {
       "name": "nn-zero-to-hero",
@@ -6857,7 +6921,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "神经网络零基础系列（配套视频）：从 micrograd 一路写到 GPT。",
-      "line": 704
+      "line": 708
     },
     {
       "name": "micrograd",
@@ -6873,7 +6937,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "**100 行**的标量自动求导引擎 + 神经网络库，理解反向传播的最佳起点。",
-      "line": 705
+      "line": 709
     },
     {
       "name": "KuiperInfer",
@@ -6889,7 +6953,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "从零实现一个高性能深度学习推理库（支持 Llama2 / UNet / YOLOv5），**校招项目里最硬的一个**，配套逐行讲解。",
-      "line": 706
+      "line": 710
     },
     {
       "name": "Cortex",
@@ -6905,7 +6969,7 @@
       "category_index": 23,
       "tier": "🛠️ 从零实现（动手造一遍）",
       "desc": "从零构建大模型：预训练 → SFT → RLHF 的完整实践，代码量克制，适合跟着跑一遍全流程。",
-      "line": 707
+      "line": 711
     },
     {
       "name": "awesome-llm-apps",
@@ -6921,7 +6985,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "**100+ 可直接跑的 AI Agent / RAG 应用合集**。星数超过大多数框架本体——「给我能跑的示例」比「给我一套抽象」更刚需。",
-      "line": 713
+      "line": 717
     },
     {
       "name": "Prompt-Engineering-Guide",
@@ -6937,7 +7001,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "提示工程指南：技术、论文、讲义、notebook 一网打尽，仍是这个领域引用最多的索引。",
-      "line": 714
+      "line": 718
     },
     {
       "name": "openai-cookbook",
@@ -6953,7 +7017,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "官方 API 示例与最佳实践：Prompt、函数调用、RAG、评测、结构化输出。",
-      "line": 715
+      "line": 719
     },
     {
       "name": "claude-cookbooks",
@@ -6969,7 +7033,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "Claude 官方 notebook 合集（原 anthropic-cookbook），工具调用与 Agent 模式最全的一份。",
-      "line": 716
+      "line": 720
     },
     {
       "name": "awesome-ai-agents",
@@ -6985,7 +7049,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "自主 Agent 清单，按用途分类——做选型调研时比搜索更快。",
-      "line": 717
+      "line": 721
     },
     {
       "name": "RAG_Techniques",
@@ -7001,7 +7065,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "**30+ 种 RAG 进阶技巧**，每种都有可运行实现：分块、重排、混合检索、GraphRAG、Agentic RAG。",
-      "line": 718
+      "line": 722
     },
     {
       "name": "GenAI_Agents",
@@ -7017,7 +7081,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "50+ 生成式 AI Agent 教程与实现，从最简单的单 Agent 到多 Agent 协作渐进。",
-      "line": 719
+      "line": 723
     },
     {
       "name": "cookbook（Gemini）",
@@ -7033,7 +7097,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "Gemini API 官方 cookbook：多模态、长上下文、函数调用示例。",
-      "line": 720
+      "line": 724
     },
     {
       "name": "langchain-academy",
@@ -7049,7 +7113,7 @@
       "category_index": 23,
       "tier": "🧪 Cookbook 与实战合集（照着搭）",
       "desc": "官方 LangGraph 课程：从 state graph、持久化到 human-in-the-loop 与部署。",
-      "line": 721
+      "line": 725
     },
     {
       "name": "hello-agents",
@@ -7065,7 +7129,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《从零开始构建智能体》——**中文世界目前最系统的 Agent 教程**，星数已超过微软的 Agent 课。",
-      "line": 727
+      "line": 731
     },
     {
       "name": "paper-reading",
@@ -7081,7 +7145,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "深度学习经典与新论文**逐段精读**，配套视频，中文圈读论文的最佳入口。",
-      "line": 728
+      "line": 732
     },
     {
       "name": "self-llm",
@@ -7097,7 +7161,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《开源大模型食用指南》：Linux 环境下全参 / LoRA 微调 + 部署国内外开源模型，国内环境最实用的一份。",
-      "line": 729
+      "line": 733
     },
     {
       "name": "llm-cookbook",
@@ -7113,7 +7177,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "吴恩达大模型系列课程的**中文版**，面向开发者，保留原课程的工程视角。",
-      "line": 730
+      "line": 734
     },
     {
       "name": "leedl-tutorial",
@@ -7129,7 +7193,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《李宏毅深度学习教程》整理版，李宏毅本人推荐，中文入门最友好的讲义之一。",
-      "line": 731
+      "line": 735
     },
     {
       "name": "so-large-lm",
@@ -7145,7 +7209,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "《大模型基础》：把 LLM 的基础知识写成一本可读的书，适合作为系统复习材料。",
-      "line": 732
+      "line": 736
     },
     {
       "name": "CV",
@@ -7161,7 +7225,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "超级全面的深度学习笔记合集：土堆 PyTorch + 李沐《动手学深度学习》+ 吴恩达深度学习 + 大模型，**一份文档覆盖四门课**。",
-      "line": 733
+      "line": 737
     },
     {
       "name": "ai-guide",
@@ -7177,7 +7241,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "AI 资源大全 + Vibe Coding 零基础教程，含 OpenClaw 保姆级上手、大模型选型与提示词模板。**面向「想马上用起来」的开发者。**",
-      "line": 734
+      "line": 738
     },
     {
       "name": "llm-universe",
@@ -7193,7 +7257,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "面向小白开发者的大模型应用开发教程：API 调用 → RAG → 部署，配套在线阅读。",
-      "line": 735
+      "line": 739
     },
     {
       "name": "ai-agents-from-zero",
@@ -7209,7 +7273,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "「2026 最系统的 AI Agent 速成指南」：学习路径 + 实战项目 + 面试题，偏求职导向。",
-      "line": 736
+      "line": 740
     },
     {
       "name": "yu-ai-agent",
@@ -7225,7 +7289,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "基于 Spring Boot 3 + Java 21 + Spring AI 的 AI 应用实战项目，**Java 后端转 AI 的落地样本**。",
-      "line": 737
+      "line": 741
     },
     {
       "name": "yu-ai-code-mother",
@@ -7241,7 +7305,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "Spring Boot 3 + LangChain4j 的 AI 代码生成器全栈项目，含微服务拆分。",
-      "line": 738
+      "line": 742
     },
     {
       "name": "hugging-multi-agent",
@@ -7257,7 +7321,7 @@
       "category_index": 23,
       "tier": "🇨🇳 中文教程与社区",
       "desc": "基于 MetaGPT 的多智能体入门教程，半天能跑通一个协作案例。",
-      "line": 739
+      "line": 743
     }
   ]
 }

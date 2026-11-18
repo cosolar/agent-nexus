@@ -5,7 +5,7 @@
 
 > 🤖 数据来源：GitHub API / GitHub Trending / 技术媒体交叉验证 | 数据真实可查
 >
-> 📊 收录 **23 大类 / 451 个开源项目**，统一 5 列表格；星数经 GitHub API 实测，精确采集时间见 `data/projects.json` 的 `stars_as_of` 字段。
+> 📊 收录 **23 大类 / 455 个开源项目**，统一 5 列表格；星数经 GitHub API 实测，精确采集时间见 `data/projects.json` 的 `stars_as_of` 字段。
 >
 > 📅 最新分析：[2026-11-18 · Agent 生态周报](analysis/2026-11-18.md) — 覆盖 11.03—11.18 的两周星数对比、重大事件与趋势判断。
 
@@ -34,11 +34,11 @@
 | 十七 | 🛡️ AI 安全与防护 | 事前扫描 + 事中拦截 + 事后审计 | 14 | strix |
 | 十八 | 💰 AI 金融 / 量化 | 多 Agent 投研 | 5 | TradingAgents |
 | 十九 | 🏢 Agent 办公自动化 | 并行 Agent 调度与 Office 套件 | 5 | orca |
-| 二十 | 🧠 大模型（开源权重） | 开源 vs 开权重之争 | 28 | DeepSeek-V3/V4 |
+| 二十 | 🧠 大模型（开源权重） | 开源 vs 开权重之争 | 30 | DeepSeek-V3/V4 |
 | 二十一 | 🏗️ 基础框架 | 底座稳定盘 | 9 | TensorFlow |
-| 二十二 | 🤖 具身智能 / 机器人 | 世界模型 + VLA | 8 | UnifoLM-WLA-1.0 |
+| 二十二 | 🤖 具身智能 / 机器人 | 世界模型 + VLA | 10 | UnifoLM-WLA-1.0 |
 | 二十三 | 📚 AI 学习教程 / 路线图 | 开源书 / 体系课 / 从零实现 / Cookbook / 中文社区 | 49 | awesome-llm-apps |
-| **合计** | **23 大类** | **框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → 教程** | **451** | — |
+| **合计** | **23 大类** | **框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → 教程** | **455** | — |
 
 ## 📅 分析存档
 
@@ -619,6 +619,8 @@
 | [**Kimi K3.1 Pro**](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations) | ⭐ — | 月之暗面 | 2026-10-27 · 3T / 1M 上下文 | 🆕 3T 级参数、100 万 token 上下文，编程 / 3D 创建 / 金融研究 / Agent 能力大幅跃升，Highspeed 版快 2—3 倍。**完整权重计划 11-04 发布**——先 API 后权重，已成开源惯例。 |
 | [**Mistral Large 4「Le Chonk」**](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/) | ⭐ — | Mistral AI | 2026-10-29 · 1.05T | 🆕 **万亿参数开放权重正式放出**，主攻网络安全场景，单任务成本较竞品低 **63%**，自称「中国以外最强开源模型」。**开源模型第一次把「安全」写进卖点。** |
 | [**Gemini 4 Carbon**](https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier) | ⭐ — | Google | 2026-10-31 · 未公布 | 🆕 在更新、更难的基准上**重回世界第一**，网络安全防御显著跃升；但访问受限，事实知识幻觉率高于前代 Argon。 |
+| [**LongCat-2.5**](https://baijiahao.baidu.com/s?id=1881449720051839293) | ⭐ — | 美团 | 2026-11-10 · 1.6T 总参数 / 480 亿激活 | **「面向长程智能体任务的原生多模态模型」** MIT 协议开源，支持商用推理与二次训练且无需额外授权；100 万 token 上下文，视觉信号表示为多层级离散 token 与文本共用，训练全程国产算力。 |
+| [**MiniMax H3-Image**](https://baijiahao.baidu.com/s?id=1881558442793419661) | ⭐ — | MiniMax | 2026-11-10 · 未公开 | **「10 秒出 4K 图的开放权重」** 衍生自 H3，支持文生图 / 图像参考 / 图像编辑，最多 16 张参考图、4096×4096 输出；发布即拿下 Artificial Analysis 文生图与图像编辑开放权重双榜第一。 |
 
 > 📌 **趋势判断（10 月下旬更新）**
 >
@@ -655,6 +657,8 @@
 | [**小米 21 自由度灵巧手**](https://www.qbitai.com/2026/10/505600.html) | ⭐ 新项目 | 仿生灵巧手 | 小米 | 🆕 **10-27 披露**。21 自由度仿生灵巧手，基于 **1827 个工厂 SOP** 验证——灵巧手从实验室 demo 走向产线可制造。 |
 | [**启元 PrimeSim**](https://www.qbitai.com/2026/10/506866.html) | ⭐ 新项目 | 世界模型 | 启元 | 🆕 **10-31 登顶两大机器人权威榜单**。世界模型直接用于机器人策略训练与仿真，与「世界模型指导芯片设计（NPU 700 TOPS）」同周出现。 |
 | [**人形机器人全套图纸**](https://www.qbitai.com/2026/10/505865.html) | ⭐ 新项目 | 全栈开源 | 开源社区 | 🆕 **10-27 开源**：从机械结构、关节到运动控制算法的全栈方案，可下载自造。与 RoboParty RP1 一起把「造人形」的门槛打到个人实验室级。 |
+| [**uni-robot-agent**](https://github.com/Open-RUA/uni-robot-agent) | ⭐ 新项目 | Python | 清华 + UC Berkeley | **「机器人使用智能体的统一 Harness」** 让开源权重模型通过标准化工具接口操控不同机器人与仿真环境；Qwen3.8-Flash-Next 搭配它在 RoboDojo 基准拿 31.39 分，超过 GPT-6 Astra + RoboProbe。 |
+| [**LingBot-Touch**](https://ai-bot.cn/lingbot-touch/) | ⭐ 新项目 | — | 蚂蚁灵波 | **「触觉基座模型」** 把磁触觉 / 视触觉 / 压阻式三类异构信号统一编码为触觉 token（JEPA 路线）；Tiny 版仅 532 万参数，接入 T-Rex / π0.5 / LingBot-VLA 后成功率提升 23—25 个百分点。 |
 
 > 💰 **资本侧信号**：FieldAI 以 **100 亿估值融资 7 亿美元**。当「世界模型 + VLA + 全栈开源硬件」三件套同时齐备，具身智能的开源生态就具备了复现条件——这是下一个十年入口的样子。
 
@@ -748,14 +752,14 @@
 ## 📌 说明
 
 1. ✅ **数据通过全网实时搜索 + GitHub API 获取**（内容调研截止 **2026-11-02**，星数刷新至 **2026-11-16**），综合 GitHub 日榜/周榜/月榜、YourTools 趋势榜、技术媒体（量子位、机器之心、VentureBeat、TechCrunch、The Verge、WIRED、MIT TR、Reuters）与每日 AI 研究简报等多源交叉验证。
-2. 📚 覆盖 **23 大类别、451 条目**（去重后实时统计），涵盖 Agent 生态全链路（框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → **学习教程**）。
+2. 📚 覆盖 **23 大类别、455 条目**（去重后实时统计），涵盖 Agent 生态全链路（框架 → 技能 → 记忆 → 推理 → 安全 → 具身 → **学习教程**）。
 3. 🔗 项目标题均内联 **GitHub / HuggingFace / 报道出处**链接。⚠️ 部分新上榜项目**暂未核实到官方仓库**，链接先指向报道出处，后续版本补正（如 Reflection Beam、MiMo-V2.6-Flash、Ternary-Bonsai-2、DeepInfer 等）。
-4. 📏 **Star 口径说明**：星数于 **2026-11-16** 经 GitHub API 统一刷新（451 条中 422 条取得读数）。为保持表格整洁，日期标注不再逐条展示，**每条数据的精确采集时间记录在 `data/projects.json` 的 `stars_as_of` 字段**；本次未取到读数的条目沿用上一版数值。不同来源仍可能有小幅波动，数据仅供参考。
+4. 📏 **Star 口径说明**：星数于 **2026-11-16** 经 GitHub API 统一刷新（455 条中 422 条取得读数）。为保持表格整洁，日期标注不再逐条展示，**每条数据的精确采集时间记录在 `data/projects.json` 的 `stars_as_of` 字段**；本次未取到读数的条目沿用上一版数值。不同来源仍可能有小幅波动，数据仅供参考。
 5. 🆕 标记为本次更新新增的项目或重大变更；⚠️ 标记为需要注意的风险（CVE、争议、口径存疑）。
 6. 📐 **表格统一为 5 列**：项目类表为「项目 / Stars / 语言 / 出品方 / 简介」，模型表为「模型 / Stars / 出品方 / 发布 · 参数 / 简介」，目录与速览等功能表同样按 5 列组织。出品方取自项目官方仓库所属组织，非 GitHub 项目标注为「—」。
 7. 🧹 **历次整理动作**：修复被空行切断的表格、删除 43 行完全重复的表格行、合并跨章节重复条目、修正梯队错位、全篇统一 5 列并按 Star 降序排列、补齐目录与「选型四问」；本轮新增 22 个条目并刷新头部项目 Star。
 8. 🔍 **本轮查漏补缺**：以 [awesome-LLM-resources · 智能体 Agents](https://github.com/WangRongsheng/awesome-LLM-resources#智能体-agents) 为对照清单逐条比对，补入 **38 个此前缺失的项目**（含 pi 11.96 万、AutoGen 6.17 万、Coze Studio 2.18 万、agent-zero 1.97 万、rowboat 1.81 万、Qwen-Agent 1.72 万等），Star 与语言均通过 **GitHub API（2026-11-03）实时读取**。该清单中的 `AgentScope` 重复出现两次（本表只保留一条）；`AgentsMesh`、`BitFun`、`meta-llama/llama-agentic-system` 三个仓库当前无法解析（404 / 未公开），暂未收录。
-9. 🗂️ **结构化数据**：`data/projects.json` 由 `scripts/extract.mjs` 从本文抽取（451 条，含星数、采集日期、语言、分类、梯队），供检索与自动化脚本使用；README 仍是唯一事实来源，数据文件仅为派生索引。
+9. 🗂️ **结构化数据**：`data/projects.json` 由 `scripts/extract.mjs` 从本文抽取（455 条，含星数、采集日期、语言、分类、梯队），供检索与自动化脚本使用；README 仍是唯一事实来源，数据文件仅为派生索引。
 10. *整理不易，如有遗漏或错误欢迎指出 🙏*
 
 ## 🤝 贡献指南
